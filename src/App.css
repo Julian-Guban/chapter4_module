@@ -71,11 +71,11 @@ body {
   flex-direction: column;
 }
 
-.col-line{
+.col-line {
   width: 95%;
   height: 2px;
   border: none;
-  background-color:  #515864;
+  background-color: #515864;
 }
 
 header {
@@ -85,7 +85,7 @@ header {
   padding-top: 50px;
 }
 
-main{
+main {
   width: inherit;
   display: flex;
   flex-direction: column;
@@ -219,7 +219,7 @@ main{
   display: flex;
 }
 
-.pretest{
+.pretest {
   width: 95%;
   height: fit-content;
   padding: 20px 0px;
@@ -291,7 +291,7 @@ main{
   font-size: 2rem;
 }
 
-.modal-content > p{
+.modal-content>p {
   width: fit-content;
   height: fit-content;
   padding: 20px;
@@ -311,7 +311,7 @@ main{
   cursor: pointer;
 }
 
-.topic-container{
+.topic-container {
   width: 70%;
   margin: 20px;
   padding: 20px;
@@ -320,7 +320,7 @@ main{
   justify-content: center;
 }
 
-.topic-title{
+.topic-title {
   width: fit-content;
   height: fit-content;
   padding: 20px;
@@ -328,14 +328,14 @@ main{
   border: 1px solid rgba(245, 245, 245, 0.648);
 }
 
-.topic-title > h3{
+.topic-title>h3 {
   width: 80%;
   font-weight: lighter;
   line-height: 30px;
   padding: 10px;
 }
 
-.topic-content{
+.topic-content {
   width: 85%;
   height: fit-content;
   padding: 20px;
@@ -343,16 +343,16 @@ main{
   /* background-color: rgb(226, 226, 226); */
 }
 
-.topic-content > p {
+.topic-content>p {
   margin: 20px;
   padding: 10px;
   line-height: 25px;
   color: rgb(215, 223, 244);
-  word-spacing: 6px;
+  word-spacing: 5px;
   /* color: rgb(50, 52, 57); */
 }
 
-.topic-content > p > b {
+.topic-content>p>b {
   color: white;
 }
 
@@ -361,7 +361,8 @@ table {
   border-collapse: collapse;
 }
 
-th, td {
+th,
+td {
   border: 1px solid black;
   color: whitesmoke;
   padding: 10px;
@@ -374,17 +375,17 @@ th {
   color: white;
 }
 
-.tabs{
+.tabs {
   width: 100%;
 }
 
-.tab-btns{
+.tab-btns {
   display: flex;
   justify-content: left;
   align-items: start;
 }
 
-.tab-btns > button{
+.tab-btns>button {
   width: 150px;
   height: fit-content;
   padding: 10px;
@@ -392,15 +393,70 @@ th {
   margin-bottom: 15px;
   margin-left: 15px;
   border-radius: 5px;
-  font-weight:bolder;
+  color: white;
+  background-color: #2196F3;
+  font-weight: bolder;
 }
 
-.tab-btns > .active{
-  background: linear-gradient( transparent, white);
-  border: 1px transparent;
+.tab-btns>button:hover {
+  cursor: pointer;
+  background-color: #176bb0;
+}
+
+
+.tab-btns>.active {
+  background-color: #103e63;
+  border: 1px solid #176bb0;
+  padding: 11px;
+}
+
+.tab {
+  width: inherit;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.topic-siders {
+  width: inherit;
+  display: grid;
+  padding: 10px;
+}
+
+.topic-siders:nth-of-type(even) {
+  background-color: #908e8e;
+  grid-template-columns: 2fr 1fr;
+}
+
+.topic-text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.topic-text>p {
+  width: 70%;
+  justify-content: left;
+}
+.topic-siders:nth-of-type(even)>.topic-text{
+  justify-content: right;
+}
+
+.topic-siders:nth-of-type(even)>.topic-text>p,
+.topic-siders:nth-of-type(even)>.topic-text>p>b {
   color: #000000;
 }
 
+.topic-siders:nth-of-type(odd) {
+  grid-template-columns: 1fr 2fr;
+}
+
+.topic-siders:nth-of-type(odd) > p {
+  justify-content: left;
+}
 
 /* .progress-bar { display: flex; flex-direction: column; justify-content: center; overflow: hidden; color: #fff; text-align: center; white-space: nowrap; background-color: #6576ff; transition: width 0.6s ease; } */
 /* .progress-bar { height: 100%; line-height: 1; } */
