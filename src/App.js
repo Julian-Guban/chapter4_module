@@ -3,6 +3,7 @@ import "./App.css";
 import Lesson1 from "./Pages/Lesson1";
 import Lesson2 from "./Pages/Lesson2";
 import Lesson3 from "./Pages/Lesson3";
+import Lesson4 from "./Pages/Lesson4";
 import Main from "./Pages/Main";
 import Redirect from "./Pages/redirectionRoute";
 
@@ -15,6 +16,7 @@ function App() {
           <Route path={"/l1"} element={<Lesson1 />} />
           <Route path={"/l2"} element={<Lesson2 />} />
           <Route path={"/l3"} element={<Lesson3 />} />
+          <Route path={"/l4"} element={<Lesson4 />} />
           <Route path="*" element={<Redirect />} />
           </Routes>
       </BrowserRouter>

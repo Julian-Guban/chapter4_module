@@ -1,5 +1,6 @@
 import React from "react";
-import Quiz from "../Images/task-list_4861139.png";
+import Quiz from "../../Images/task-list_4861139.png";
+import QR from "../../Images/l1/qr.png";
 
 function ShortQuiz() {
   return (
@@ -32,14 +33,28 @@ function ShortQuiz() {
           environment. Apply what you’ve learned and carefully consider each
           question. Good luck!
         </p>
-        <div className="card">
+        <div className="card flex-center">
           <br />
-          <div className="flex-center flex-column">
-            <h4>How to Access the Short Quiz: </h4>
-            <br />
+          <div className="flex-center">
             <a className="tab-btns" href="https://forms.gle/X313QwAnMtbHLn1CA">
-              <button>Click Here</button>
+              <img
+                src={QR}
+                alt="Pre-Test"
+                width={"200px"}
+                height={"250px"}
+                style={{ padding: "5px" }}
+              />
             </a>
+            <div className="flex-center flex-column">
+              <h4 style={{ padding: "5px" }}>How to Access the Short Quiz: </h4>
+              <br />
+              <a
+                className="tab-btns"
+                href="https://forms.gle/X313QwAnMtbHLn1CA"
+              >
+                <button>Click Here</button>
+              </a>
+            </div>
           </div>
         </div>
       </div>

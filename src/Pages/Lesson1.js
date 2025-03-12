@@ -1,21 +1,33 @@
 import React from "react";
 import Hero from "../Parts/hero";
-import IntroductoryActivity from "../Parts/introact";
-import Objectives from "../Parts/obectives";
-import Topic from "../Parts/topic";
-import Practice from "../Parts/practice";
-import PT from "../Parts/performanceTask";
-import SQ from "../Parts/ShortQuiz";
-import References from "../Parts/references";
+
+import IntroductoryActivity from "../Parts/l1-parts/introact";
+import Objectives from "../Parts/l1-parts/objectives";
+import Topic from "../Parts/l1-parts/topic";
+import Practice from "../Parts/l1-parts/practice";
+import PT from "../Parts/l1-parts/performanceTask";
+import SQ from "../Parts/l1-parts/ShortQuiz";
+import References from "../Parts/l1-parts/references";
+
 import Download from "../Parts/fileDownload";
 import Footer from "../Parts/footer";
+import { useNavigate } from "react-router-dom";
 
 function Lesson1() {
+  const navigate = useNavigate();
   return (
     <>
       <header>
-        <Hero message={"Lesson 1:"} topic={"Set-up User Access Levels"} />
+      <Hero message={"Lesson 1:"} topic={"Set-up User Access Levels"} />
       </header>
+      <button
+        type="button"
+        onClick={() => navigate("/")}
+        className="pretest-btn"
+        style={{margin: "10px"}}
+      >
+        &lsaquo; Back to Home
+      </button>
       <main>
         <IntroductoryActivity />
         <hr className="col-line" />
@@ -30,14 +42,21 @@ function Lesson1() {
         <SQ />
         <hr className="col-line" />
         <References />
+        <div className="pretest">
+          <button
+            type="button"
+            onClick={() => navigate("/l2")}
+            className="pretest-btn"
+          >
+            Continue to L2 &rsaquo;
+          </button>
+        </div>
         <Download/>
       </main>
       <footer>
         <Footer />
       </footer>
-      {/* to fix:
-        responsiveness
-        dynamic pages */}
+
     </>
   );
 }

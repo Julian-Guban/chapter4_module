@@ -1,8 +1,8 @@
 import React from "react";
-import WTD from "../Images/list_2387635.png";
-import WTC from "../Images/decision_11473538.png";
-import Practice from "../Images/Practice.png";
-import File from "../Files/TOPICpgLesson1-Chapter3-19.pdf";
+import WTD from "../../Images/list_2387635.png";
+import WTC from "../../Images/decision_11473538.png";
+import Practice from "../../Images/Practice.png";
+import File from "../../Files/TOPICpgLesson1-Chapter3-19.pdf";
 
 function practice() {
   return (

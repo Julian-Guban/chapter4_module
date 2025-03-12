@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Bulb from "../Images/5cfc8918-06a1-47c8-aa07-5224f1d34b2c-removebg-preview.png";
-import UA from "../Images/account_1047690.png";
-import AC from "../Images/smart-lock_6872688.png";
-import GP from "../Images/boss_554776.png";
-import NAC from "../Images/network_1689300.png";
+import Bulb from "../../Images/5cfc8918-06a1-47c8-aa07-5224f1d34b2c-removebg-preview.png";
+import UA from "../../Images/account_1047690.png";
+import AC from "../../Images/smart-lock_6872688.png";
+import GP from "../../Images/boss_554776.png";
+import NAC from "../../Images/network_1689300.png";
 
 function Topic() {
   const [nosType, setNosType] = useState(1);

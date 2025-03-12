@@ -13,22 +13,25 @@ function Main() {
   return (
     <>
       <header>
-        <Hero message={"WELCOME TO CHAPTER 4:"} topic={"Set-up Computer Servers"}/>
+        <Hero
+          message={"WELCOME TO CHAPTER 4:"}
+          topic={"Set-up Computer Servers"}
+        />
       </header>
       <main>
-            <Overview />
-            <About />
-            <Topics />
-            <Blueprint />
-            <div className="pretest">
-                <button
-                  type="button"
-                  onClick={() => navigate("/l1")}
-                  className="pretest-btn"
-                >
-                  Continue to L1 &rsaquo;
-                </button>
-            </div>
+        <Overview />
+        <About />
+        <Topics />
+        <Blueprint />
+        <div className="pretest">
+          <button
+            type="button"
+            onClick={() => navigate("/l1")}
+            className="pretest-btn"
+          >
+            Continue to L1 &rsaquo;
+          </button>
+        </div>
       </main>
       <footer>
         <Footer />
@@ -40,6 +43,9 @@ function Main() {
 export default Main;
 
 
+  /* to fix:
+        responsiveness
+        dynamic pages */
 
 
 // import React, { useEffect, useState } from "react";

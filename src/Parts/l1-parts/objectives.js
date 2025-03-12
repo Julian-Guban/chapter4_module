@@ -1,5 +1,5 @@
 import React from "react";
-import FAQ from "../Images/fa3859ff-1d7a-4751-81ec-65576109a2af-removebg-preview.png";
+import FAQ from "../../Images/fa3859ff-1d7a-4751-81ec-65576109a2af-removebg-preview.png";
 
 function obectives() {
   return (

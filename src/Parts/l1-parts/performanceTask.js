@@ -1,6 +1,6 @@
 import React from "react";
-import Apply from "../Images/graphic_1151221.png";
-import Criteria from "../Images/Criteria.png";
+import Apply from "../../Images/graphic_1151221.png";
+import Criteria from "../../Images/Criteria.png";
 
 function performanceTask() {
   return (
