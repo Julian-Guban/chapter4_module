@@ -1,5 +1,6 @@
 import React from "react";
 import WTD from "../../Images/list_2387635.png";
+import ACT1 from "../../Images/node_network.png";
 import WTC from "../../Images/decision_11473538.png";
 import pic4 from "../../Images/l2/4.png";
 import pic5 from "../../Images/l2/5.png";
@@ -38,6 +39,46 @@ import pic37 from "../../Images/l2/37.png";
 import pic38 from "../../Images/l2/38.png";
 import pic39 from "../../Images/l2/39.png";
 import pic40 from "../../Images/l2/40.png";
+import pic41 from "../../Images/l2/41.png";
+import pic42 from "../../Images/l2/42.png";
+import pic43 from "../../Images/l2/43.png";
+import pic44 from "../../Images/l2/44.png";
+import pic45 from "../../Images/l2/45.png";
+import pic46 from "../../Images/l2/46.png";
+import pic47 from "../../Images/l2/47.png";
+import pic48 from "../../Images/l2/48.png";
+import pic49 from "../../Images/l2/49.png";
+import pic50 from "../../Images/l2/50.png";
+import pic51 from "../../Images/l2/51.png";
+import pic52 from "../../Images/l2/52.png";
+import pic53 from "../../Images/l2/53.png";
+import pic54 from "../../Images/l2/54.png";
+import pic55 from "../../Images/l2/55.png";
+import pic56 from "../../Images/l2/56.png";
+import pic57 from "../../Images/l2/57.png";
+import pic58 from "../../Images/l2/58.png";
+import pic59 from "../../Images/l2/59.png";
+import pic60 from "../../Images/l2/60.png";
+import pic61 from "../../Images/l2/61.png";
+import pic62 from "../../Images/l2/62.png";
+import pic63 from "../../Images/l2/63.png";
+import pic64 from "../../Images/l2/64.png";
+import pic65 from "../../Images/l2/65.png";
+import pic66 from "../../Images/l2/66.png";
+import pic67 from "../../Images/l2/67.png";
+import pic68 from "../../Images/l2/68.png";
+import pic69 from "../../Images/l2/69.png";
+import pic70 from "../../Images/l2/70.png";
+import pic71 from "../../Images/l2/71.png";
+import pic72 from "../../Images/l2/72.png";
+import pic73 from "../../Images/l2/73.png";
+import pic74 from "../../Images/l2/74.png";
+import pic75 from "../../Images/l2/75.png";
+import pic76 from "../../Images/l2/76.png";
+import pic77 from "../../Images/l2/77.png";
+import pic78 from "../../Images/l2/78.png";
+import pic79 from "../../Images/l2/79.png";
+import pic80 from "../../Images/l2/80.png";
 import File from "../../Files/TOPICpgLesson1-Chapter3-19.pdf";
 
 function practice() {
@@ -908,7 +949,6 @@ function practice() {
               • Click Next to continue...
               <br />
             </p>
-            
             <img
               src={pic40}
               alt=" "
@@ -916,7 +956,6 @@ function practice() {
               height={"553px"}
               style={{ padding: "15px" }}
             />
-
             <p
               style={{
                 width: "90%",
@@ -925,23 +964,933 @@ function practice() {
                 marginBottom: "0px",
               }}
             >
-              On the <b>Server Roles</b>,
-              <br />• Tick the following <b>Roles - DHCP Server</b>,
-              <br />• then <b>Add Features</b>.
-              <br />
-              • Click Next to continue...
+              On the features, click Next to continue and do the same for DHCP
+              Server Then at the confirmation click Install. Click Next to
+              continue...
               <br />
             </p>
             <img
-              src={pic40}
+              src={pic41}
               alt=" "
               width={"710px"}
               height={"553px"}
               style={{ padding: "15px" }}
             />
             <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              • On the Results, just wait until the installation progress is
+              completed, depending on your system, it takes 3 to 5 minutes to
+              complete the installation.
+              <br />
+              • Click Close to exit
+              <br />
+            </p>
+            <img
+              src={pic42}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              • In the server manager dashboard, you will see a yellow
+              notification at the top right.
+              <br /> • Click on it.
+              <br /> • Now click on <b>"Complete DHCP configuration"</b>
+              <br />
+            </p>
+            <img
+              src={pic43}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              On the Description window click next to continue..
+              <br />• On the authorization page, select "Use the following
+              user's credentials"
+              <br />• Click commit to continue
+            </p>
+            <img
+              src={pic44}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              You will see a summary window just click close to continue.
+              <br />
+              In the server manager dashboard, click tools and select DHCP
+            </p>
+            <img
+              src={pic45}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              When the DHCP opened, expand both <b>DHCP server name and IPv4</b>
+              , right-click on IPv4 then click on the <b>New Scope</b> option to
+              create an IP scope for distribution.
+            </p>
+            <img
+              src={pic46}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              In the welcome to the New Scope wizard click next to continue.{" "}
+              <br />• In the Scope Name, type your desired name e.g. CSS <br />{" "}
+              • In the description portion, you can put anything you want or
+              leave it blank.
+              <br />• Click Next to continue
+            </p>
+            <img
+              src={pic47}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              In the welcome to the New Scope wizard click next to continue.{" "}
+              <br />• In the Scope Name, type your desired name e.g. CSS <br />{" "}
+              • In the description portion, you can put anything you want or
+              leave it blank.
+              <br />• Click Next to continue
+            </p>
+            <img
+              src={pic47}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              • Specify the IP Address Range by entering the start IP Address
+              and End IP address. The length automatically assigns, based on you
+              IP address class and the subnet mask assigns automatically.
+              <br />• In this Demo we are going to Use: <br />
+              <pre> &#9; Start IP address: 10.10.10.10</pre> <br />
+              <pre> &#9; End IP In this address: 10.10.10.200</pre> <br />
+              •Click Next to continue
+            </p>
+            <img
+              src={pic48}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              • You can exclude some of the IP addresses for the servers or
+              especial services. The IPs excluded will not be assigned
+              automatically. IPs before and after the exclusion range are
+              assigned. IPs excluded are assigned on servers manually. Specify
+              the IP range you want to exclude. <br />
+              •In this Demo we are going to leave it blank <br />
+              •Click Next to Continue
+            </p>
+            <img
+              src={pic49}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              • On the Lease Duration window, we can specify how long we want
+              the DHCP lease to last. The lease is how long the client can keep
+              the TCP/IP settings before it needs to come back to the DHCP
+              Server for a new lease or configuration. <br />
+              •We are keeping the default settings of 8 Days. <br />
+              •Click Next to continue.
+            </p>
+            <img
+              src={pic50}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              • On the Configure DHCP option page, select this option: select
+              Yes, I want to configure these options now. <br />• Click Next to
+              continue
+            </p>
+            <img
+              src={pic51}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              • Enter your Router's IP address in the box and click on add
+              button to add the IP address. <br /> • Click on Next button.
+            </p>
+            <img
+              src={pic52}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              • DNS (Domain Name System) server translates the name to IP
+              address and IP address to name. Type the DNS server's name in the
+              box. Then type IP address in the box below then click on Add
+              button to add to the IP address. <br />• Click Next to continue.
+            </p>
+            <img
+              src={pic53}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              • WINS Server translates NetBIOS computer name to IP address. Type
+              WINS server name in Server name box. Type the WINS server's IP
+              address and click on Add button. <br />• In this Demo we going to
+              leave it blank. <br /> • Click Next to continue
+            </p>
+            <img
+              src={pic54}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              Finish the wizard by clicking on the finish button.
+            </p>
+            <img
+              src={pic55}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            {/*Box type div for search purpose() */}
+            <div className="card">
+              <p
+                style={{
+                  fontWeight: "lighter",
+                  lineHeight: "25px",
+                  padding: "5px",
+                }}
+              >
+                We are done with the creation of new scope. It is the time to
+                know more about DHCP server console. Below the DHCP server name,
+                you see IPv4 and IPv6 options. It means that Windows server 2016
+                can support both IPv4 and IPv6 versions of IP address. Expand
+                IPv4 to see the scope you have created. Also, Server Options,
+                Policies and Filters.
+                <br />
+                <br /> Expand the scope. Things you see are these: <br />
+                <br />
+                <b>• Address Pool:</b> IP address range can be assigned to
+                clients and exclusion range is listed here. <br />
+                <b>• Address Leases:</b> IP address which has been assigned to
+                clients dynamically are listed here. IP address which has been
+                assigned manually won't be listed here. <br />
+                <b>• Reservations:</b> Reserved IP range is listed here. <br />
+                <b>• Scope Options:</b> Some options like Router, PXE client and
+                etc. <br />
+                <b>• Policies:</b> Policies created for DCHP server are listed
+                here.
+              </p>
+            </div>
+            <img
+              src={pic56}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              On the Server Manager - Dashboard, click Tools, and Select Active
+              <b> Directory Users and Computers.</b>
+            </p>
+            <img
+              src={pic57}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              Right click on your <b>Domain</b>, select <b>New</b>, and choose
+              <b> Organizational Unit</b>.
+            </p>
+            <img
+              src={pic58}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              • Here type the name of the Organizational unit you want to create
+              (for example Students). <br /> • Select the checkbox of
+              <b> "Protect container from the accidental deletion" </b> option.
+              This option will protect the object from accidental deletion.
+              <br />• Click OK to finish.
+            </p>
+            <img
+              src={pic59}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              Now OU with the name "Students" has been successfully created.
+            </p>
+            <img
+              src={pic60}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              • Now we will add a user to this OU. To create a user, right Click
+              on the <b>"Students"</b> OU, choose <b>New</b> and then click on
+              <b> "User"</b>.
+            </p>
+            <img
+              src={pic61}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              • A new window will appear, here we have to enter the user
+              information. <br />
+              • Type the user's First name, Middle Initial and Last name.
+              <br />• On the User logon name type on the "Username" that the
+              user will use to log in to the Computer in the Network. <br /> •
+              if the user wants to log in then he will type
+              <b> "abestipular@CSS. Local"</b> or{" "}
+              <b>"CSS.Local /abestipular" </b>
+              in the username field. <br /> • Click Next to continue
+            </p>
+            <img
+              src={pic62}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            {/*Plain text with special char • for search purpose() */}
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              • You will now be prompted to enter a password for your new user
+              as below, you will need to enter the password twice to ensure that
+              the password has not been typed incorrectly.
+              <br /> • You can also set basic options for the user account here,
+              (e.g. we choose <b> "Password never expires"</b>. Once you have
+              entered a password, and have chosen the required options. <br /> •
+              Click Next to continue
+            </p>
+            <img
+              src={pic63}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              You will now be presented with a summary pane as shown, please
+              review the details presented, once you have confirmed that they
+              are correct, select Finish to exit.
+            </p>
+            <img
+              src={pic64}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              Now you have successfully created a user under your Organizational
+              Unit (OU).
+            </p>
+            <img
+              src={pic65}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <br />
+            <hr className="col-line" />
+            <br />
+            <h1 style={{ display: "flex", alignItems: "center" }}>
+              <a
+                href="https://www.freepik.com/icon/decision_11473538#fromView=family&page=1&position=3&uuid=108e389d-de23-4140-9aaa-0516c1366710"
+                target="_black"
+              >
+                <img
+                  src={WTC}
+                  alt="What to Consider?"
+                  width={"50px"}
+                  height={"50px"}
+                  style={{ paddingRight: "15px" }}
+                />
+              </a>
+              <b>What is Folder Redirection?</b>
+            </h1>
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "center",
+                marginBottom: "0px",
+              }}
+            >
+              In this presentation shows you how simply you can redirect folder
+              in Windows Server with group policy. <br />
+              The folder redirection is the way to keep a profile folder to a
+              network location or other location in the local computer.
+              Typically, user profiles and settings are stored in local profile.
+              By redirecting folders, you can access to data regardless of which
+              computers you are logs in. In addition to the immediate benefit of
+              having that data on a file server that is much easier to keep
+              backed up, the user also gets the benefit of being able to go to
+              multiple computers in your organization and still have access to
+              their data. Using the default Windows settings and the default
+              share settings on your file server, these redirections will be
+              even made available offline automatically for your users.
+            </p>
+            <br />
+            <hr className="col-line" />
+            <br />
+            <h1 style={{ display: "flex", alignItems: "center" }}>
+              <a
+                href="https://www.freepik.com/icon/network_11473499#fromView=resource_detail&position=20"
+                target="_black"
+              >
+                <img
+                  src={ACT1}
+                  alt="What to Consider?"
+                  width={"50px"}
+                  height={"50px"}
+                  style={{ paddingRight: "15px" }}
+                />
+              </a>
+              <b>The Policy-Based QoS node</b>
+            </h1>
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "center",
+                marginBottom: "0px",
+              }}
+            >
+              This quality of service (QoS) node, known as the Policy-Based QoS
+              node, defines policies that manage network traffic. For example,
+              you might want to ensure that users in the Finance department have
+              priority to run a critical network application during the
+              end-of-year financial reporting period. You can do that by using
+              the Policy-Based QoS node. In the User Configuration node only,
+              the windows Settings folder contains the additional Folder
+              Redirection node. With folder redirection, you can redirect user
+              data and settings folders such as <b>AppData</b>, <b>Desktop</b>,
+              <b>Documents</b>, <b>Pictures</b>, <b>Music</b>, and{" "}
+              <b>Favorites </b>
+              from their default user profile location to an alternate location
+              on the network, where you can manage them centrally.
+            </p>
+            <br />
+            <br />
+            <hr className="col-line" />
+            <br />
+            <div className="card">
+              <p
+                style={{
+                  fontWeight: "lighter",
+                  lineHeight: "25px",
+                  padding: "5px",
+                }}
+              >
+                <b>Infrastructure Requirement:</b>
+                <br /> 1 DC SERVER <b>(DCSERVER)</b> <br />
+                Client PC running on Windows 10 <b>(CLIENT-01)</b>
+                <br /> <br />
+                On your DCSERVER, at the<b> taskbar</b>,<br /> click the
+                <b> File Explorer icon</b> .
+              </p>
+            </div>
+            <br />
+            <img
+              src={pic66}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              • In the navigation pane, click This PC.
+              <br /> • In the details pane, double-click Local Disk (C:) or any
+              Drive partition.
+              <br /> • In this demo we are going to select Local Disk (D:)
+            </p>
+            <img
+              src={pic67}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              On the <b>Home tab</b>, click <b>New folder</b>.
+            </p>
+            <img
+              src={pic68}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              Type name of the new folder (e.g. Students), then press Enter
+            </p>
+            <img
+              src={pic69}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              Right-click the Students folder, click Share with, and then click
+              Specific people.
+            </p>
+            <img
+              src={pic70}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              In the File Sharing dialog box, click the drop-down arrow, select
+              Everyone, and then click Add.
+            </p>
+            <img
+              src={pic71}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              For the Everyone group, click the Permission Level drop-down
+              arrow, and then click Read/Write.
+            </p>
+            <img
+              src={pic72}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              <br />• Click Share, and then click Done.
+              <br />• Close the Local Disk (D:) window
+            </p>
+            <img
+              src={pic73}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              <br />• On your keyboard press Win + R to open the Run dialog box.
+              <br />
+              •In the Run dialog box, type \\ComputerName\Shared Folder. <br />•
+              For example, if the computer name is <b>DCServer</b> and the
+              shared folder name is Students, you would type \\DCServer\Students
+              in the Run dialog box. Press the Enter key to run it.
+            </p>
+            <img
+              src={pic74}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              <br />• In the Server Manager, click Tools and then click Group
+              Policy Management.
+            </p>
+            <img
+              src={pic75}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              <br />• In the navigation pane, expand "Forest: CSS.Local", then
+              expand "Domains", then expand <b>"CSS.Local" </b> <br /> •
+              Right-click on the "Students" O.U, and then click{" "}
+              <b>Create a GPO in this domain and Link it here</b>...
+            </p>
+            <img
+              src={pic76}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              <br />• In the New GPO dialog box, in the Name text box, type
+              Folder Redirection of Documents and Desktop, and then click OK.
+            </p>
+            <img
+              src={pic77}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              <br />• In the navigation pane expand Students O.U <br />• In the
+              navigation pane, right-click Folder Redirection of Documents &
+              <br />• Desktop, and then click Edit.
+            </p>
+            <img
+              src={pic78}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              <br />• In the navigation pane expand Students O.U <br />• In the
+              navigation pane, right-click Folder Redirection of Documents &
+              <br />• Desktop, and then click Edit.
+            </p>
+            <img
+              src={pic79}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
           </div>
-
+          {/*End div */}
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
           <div>
             <p
               style={{
