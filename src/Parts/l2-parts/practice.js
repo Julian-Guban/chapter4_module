@@ -2,6 +2,10 @@ import React from "react";
 import WTD from "../../Images/list_2387635.png";
 import ACT1 from "../../Images/node_network.png";
 import WTC from "../../Images/decision_11473538.png";
+import KC from "../../Images/key_4429438.png";
+import PRCS from "../../Images/planning_762620.png";
+import BENF from "../../Images/values_11340020.png";
+import GZ from "../../Images/applause_9104907.png";
 import pic4 from "../../Images/l2/4.png";
 import pic5 from "../../Images/l2/5.png";
 import pic6 from "../../Images/l2/6.png";
@@ -79,6 +83,16 @@ import pic77 from "../../Images/l2/77.png";
 import pic78 from "../../Images/l2/78.png";
 import pic79 from "../../Images/l2/79.png";
 import pic80 from "../../Images/l2/80.png";
+import pic81 from "../../Images/l2/81.png";
+import pic82 from "../../Images/l2/82.png";
+import pic83 from "../../Images/l2/83.png";
+import pic84 from "../../Images/l2/84.png";
+import pic85 from "../../Images/l2/85.png";
+import pic86 from "../../Images/l2/86.png";
+import pic87 from "../../Images/l2/87.png";
+import pic88 from "../../Images/l2/88.png";
+import alt82 from "../../Images/l2/82.png";
+import alt83 from "../../Images/l2/83.png";
 import File from "../../Files/TOPICpgLesson1-Chapter3-19.pdf";
 
 function practice() {
@@ -1604,6 +1618,7 @@ function practice() {
               on the network, where you can manage them centrally.
             </p>
             <br />
+            {/* Divider */}
             <br />
             <hr className="col-line" />
             <br />
@@ -1875,9 +1890,11 @@ function practice() {
                 marginBottom: "0px",
               }}
             >
-              <br />• In the navigation pane expand Students O.U <br />• In the
-              navigation pane, right-click Folder Redirection of Documents &
-              <br />• Desktop, and then click Edit.
+              <br />• In the Group Policy Management <b>Editor window</b>, under
+              <b>User Configuration</b>, expand <b>Policies</b>, expand{" "}
+              <b>Windows Settings</b>, and then expand <b>Folder Redirection</b>
+              . <br />• Right click on <b> Desktop</b> and select{" "}
+              <b>Properties</b> .
             </p>
             <img
               src={pic79}
@@ -1887,25 +1904,83 @@ function practice() {
               style={{ padding: "15px" }}
             />
             <br />
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-          </div>
-          {/*End div */}
-          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-          <div>
             <p
               style={{
-                fontWeight: "lighter",
-                lineHeight: "25px",
-                padding: "5px",
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
               }}
             >
-              After reading all the requests, choose the correct network tool,
-              feature, or setting for each case and explain why you selected it.
-              Think about how it will help resolve the issue efficiently and
-              securely.
+              • In the <b>Desktop Properties dialog box</b>, on the Target tab,
+              click the Setting drop-down arrow, and then select{" "}
+              <b>Basic-Redirect everyone's folder to the same location</b>. •
+              Ensure that the Target folder location box is set to{" "}
+              <b>Create a folder for each user under the root path</b>. • In the
+              Root Path text box, type <b>\\DCServer\Students</b>
+            </p>
+            <img
+              src={pic80}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              • In the <b>Desktop Properties dialog box</b>, on the Settings
+              tab, uncheck the box Grant the user exclusive rights to Desktop.
+              <br />• Click Apply to continue <br /> • In the Warning dialog
+              box, click Yes. <br />• Click OK to close.
+            </p>
+            <img
+              src={pic81}
+              alt=" "
+              width={"710px"}
+              height={"553px"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "center",
+                marginBottom: "0px",
+                marginLeft: "400px",
+              }}
+            >
+              <h3>
+                <b>~~REPEAT THE SAME PROCEDURES FOR DOCUMENTS~~ </b>
+              </h3>
             </p>
             <br />
+            <br />
+            <hr className="col-line" />
+            <br />
             <div className="card">
+              <h1 style={{ display: "flex", alignItems: "center" }}>
+                <a
+                  href="https://www.freepik.com/icon/decision_11473538#fromView=family&page=1&position=3&uuid=108e389d-de23-4140-9aaa-0516c1366710"
+                  target="_black"
+                >
+                  <img
+                    src={WTC}
+                    alt="What to Consider?"
+                    width={"50px"}
+                    height={"50px"}
+                    style={{ paddingRight: "15px" }}
+                  />
+                </a>
+                <b>What is Domain Join?</b>
+              </h1>
               <p
                 style={{
                   fontWeight: "lighter",
@@ -1913,15 +1988,319 @@ function practice() {
                   padding: "5px",
                 }}
               >
-                In this exercise, you took on the role of a Network
-                Administrator, making key decisions about which network tools
-                and configurations to use for different real-world problems.
-                Selecting the appropriate feature or tool is essential for
-                ensuring network security, efficiency, and user accessibility in
-                any organization. By understanding how these solutions work,
-                you’ll be able to troubleshoot and manage network issues
-                effectively.
+                Joining a domain when logging into a computer refers to the
+                process of connecting that computer to a centralized network
+                management system, typically found in enterprise environments.
               </p>
+              <br />
+
+              <br />
+              <hr className="col-line" />
+              <br />
+
+              <h1 style={{ display: "flex", alignItems: "center" }}>
+                <a
+                  href="https://www.freepik.com/icon/key_4429438#fromView=search&page=1&position=35&uuid=bfa115ae-be6e-4f28-8d5b-b64625f2a6d7"
+                  target="_black"
+                >
+                  <img
+                    src={KC}
+                    alt="Key Concepts"
+                    width={"50px"}
+                    height={"50px"}
+                    style={{ paddingRight: "15px" }}
+                  />
+                </a>
+                <b>What is Domain Join?</b>
+              </h1>
+              <p
+                style={{
+                  fontWeight: "lighter",
+                  lineHeight: "25px",
+                  padding: "5px",
+                }}
+              >
+                • Domain: A domain is a collection of computers, users, and
+                devices that are managed under a common directory service, such
+                as Microsoft Active Directory (AD). This allows for centralized
+                management of resources, security policies, and user accounts.{" "}
+                <br />
+                <br />
+                <b>• Centralized Authentication:</b> - When a computer is joined
+                to a domain, user accounts are managed by the domain controller
+                (DC). Users can log in using their domain credentials (username
+                and password) rather than local accounts, allowing for easier
+                access to network resources. <br />
+                <br />
+                <b>• Group Policies:</b> Once a computer is part of a domain,
+                administrators can apply group policies to enforce security
+                settings, software installation, and other configurations across
+                all computers in the domain.
+                <br />
+                <br />
+                <b>• Resource Access:</b> Being part of a domain allows users to
+                access shared resources, such as files, printers, and
+                applications, that are available on the network, based on their
+                permissions. <br />
+                <br />
+                <b>• Single Sign-On (SSO):</b> Users can often access multiple
+                services and applications with a single set of credentials,
+                simplifying the login process and improving security.
+              </p>
+              <br />
+
+              <br />
+              <hr className="col-line" />
+              <br />
+
+              <h1 style={{ display: "flex", alignItems: "center" }}>
+                <a
+                  href="https://www.freepik.com/icon/planning_762620#fromView=search&page=1&position=9&uuid=f8c9f8ec-c2a1-4667-89a8-f01536f015e3"
+                  target="_black"
+                >
+                  <img
+                    src={PRCS}
+                    alt="Key Concepts"
+                    width={"50px"}
+                    height={"50px"}
+                    style={{ paddingRight: "15px" }}
+                  />
+                </a>
+                <b>Process of Joining a Domain</b>
+              </h1>
+              <p
+                style={{
+                  fontWeight: "lighter",
+                  lineHeight: "25px",
+                  padding: "5px",
+                }}
+              >
+                <b>• Configuration:</b> <br />- The computer must be configured
+                with the correct network settings to communicate with the domain
+                controller (e.g., DNS settings). <br />- Only a Windows 10 Pro,
+                Enterprise, or Education edition PC can join a domain. <br />
+                <br />
+                <b>• Domain Credentials:</b> <br />- The user must have
+                appropriate permissions to join the computer to the domain,
+                usually requiring administrative credentials for the domain.
+                <br />
+                <br />
+                <b>• Domain Join Action:</b> <br />- The computer is added to
+                the domain using the system settings (e.g., in Windows, this can
+                b done through the "System Properties" window).
+                <br /> - You must be signed in to an Administrator account on
+                your Windows 10 PC to join a domain Reboot: <br />- After
+                joining the domain, the computer typically needs to be restarted
+                for the changes to take effect.
+              </p>
+              <br />
+
+              <br />
+              <hr className="col-line" />
+              <br />
+
+              <h1 style={{ display: "flex", alignItems: "center" }}>
+                <a
+                  href="https://www.freepik.com/icon/values_11340020#fromView=family&page=1&position=48&uuid=1f498243-45b4-4a17-a6be-cddfdb3c1aef"
+                  target="_black"
+                >
+                  <img
+                    src={BENF}
+                    alt="Key Concepts"
+                    width={"50px"}
+                    height={"50px"}
+                    style={{ paddingRight: "15px" }}
+                  />
+                </a>
+                <b>Benefits of Joining a Domain</b>
+              </h1>
+              <p
+                style={{
+                  fontWeight: "lighter",
+                  lineHeight: "25px",
+                  padding: "5px",
+                }}
+              >
+                <b>► Improved Security:</b> Centralized management allows for
+                better security practices and monitoring. <br />
+                <b>► Easier Management:</b> Administrators can manage multiple
+                computers and user accounts from a single location. <br />
+                <b>► Scalability:</b> As an organization grows, adding new users
+                and computers to the domain is relatively straightforward. In
+                summary, joining a domain enhances the management, security, and
+                accessibility of resources within an organizational network.
+              </p>
+              <br />
+
+              {/*Endbox div for domain join description*/}
+            </div>
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              <h1>
+                <b>Set up diagram:</b>
+              </h1>
+            </p>
+            <img
+              src={pic82}
+              alt=" "
+              width={"80%"}
+              height={"100%"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              • On the Windows 10 PC sign in as <b>Administrator</b>. <br />• On
+              the search bar, type settings, then press enter or use the
+              keyboard shortcut <b>Win+l</b> <br />• Click <b>System</b> <br />•
+              Click
+              <b> About</b>
+              <br />• Then click <b>Join a Domain</b>
+            </p>
+            <img
+              src={pic83}
+              alt=" "
+              width={"80%"}
+              height={"100%"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <img
+              src={pic84}
+              alt=" "
+              width={"80%"}
+              height={"100%"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              • Click/tap on the Change button in the Computer Name tab. <br />{" "}
+              • Select (dot) Domain type the domain name (e.g. "CSS.Local") of
+              the domain you want to join <br />• Click OK to continue.
+            </p>
+            <img
+              src={pic85}
+              alt=" "
+              width={"80%"}
+              height={"100%"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              • Type the domain user name (e.g. "abestipular") and{" "}
+              <b>password</b> for your domain account.
+              <br />• Click <b>OK</b> to proceed.
+            </p>
+            <img
+              src={pic86}
+              alt=" "
+              width={"80%"}
+              height={"100%"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              • Click Close to exit.
+              <br />• Click on Restart Now.
+              <br />• After you restart, your PC will be joined to the domain.
+            </p>
+            <img
+              src={pic87}
+              alt=" "
+              width={"80%"}
+              height={"100%"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+            <p
+              style={{
+                width: "90%",
+                fontSize: "large",
+                alignSelf: "start",
+                marginBottom: "0px",
+              }}
+            >
+              • When the sign-in screen appears, you will notice the DOMAIN\User
+              account is displayed.
+              <br />• Enter your password, and you will now be logged onto your
+              domain.
+            </p>
+            <img
+              src={pic88}
+              alt=" "
+              width={"80%"}
+              height={"100%"}
+              style={{ padding: "15px" }}
+            />
+            <br />
+          </div>
+          {/*End div */}
+
+          <div>
+            <br />
+            <div className="card">
+              <h1 style={{ display: "flex", alignItems: "center" }}>
+                <a
+                  href="https://www.freepik.com/icon/applause_9104907#fromView=search&page=1&position=12&uuid=c3b3bf1e-ecc9-4aa7-b967-d8285e694b04"
+                  target="_black"
+                >
+                  <img
+                    src={GZ}
+                    alt="Congratulations!"
+                    width={"50px"}
+                    height={"50px"}
+                    style={{ paddingRight: "15px" }}
+                  />
+                </a>
+                <h1>
+                  <b>Congratulations!</b>
+                </h1>
+              </h1>
+              <p
+                style={{
+                  fontWeight: "lighter",
+                  lineHeight: "25px",
+                  padding: "5px",
+                }}
+              >
+                After all those instructions and guides, were you able to
+                succeed this practice? If so, congratulations on you and if not
+                look again and take your time.
+              </p>
+              <br />
             </div>
             <br />
 

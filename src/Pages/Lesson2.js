@@ -4,7 +4,8 @@ import IntroductoryActivity from "../Parts/l2-parts/introact";
 import Objectives from "../Parts/l2-parts/objectives";
 import Topic from "../Parts/l2-parts/topic";
 import Practice from "../Parts/l2-parts/practice";
-import PT from "../Parts/l1-parts/performanceTask";
+import PT2 from "../Parts/l2-parts/performanceTask";
+// import PT from "../Parts/l1-parts/performanceTask";
 import SQ from "../Parts/l1-parts/ShortQuiz";
 import References from "../Parts/l1-parts/references";
 import Download from "../Parts/fileDownload";
@@ -18,12 +19,12 @@ function Lesson2() {
     <>
       <header>
         <Hero message={"Lesson 2:"} topic={"Configure Network Services"} />
-        </header>
+      </header>
       <button
         type="button"
         onClick={() => navigate("/l1")}
         className="pretest-btn"
-        style={{margin: "10px"}}
+        style={{ margin: "10px" }}
       >
         &lsaquo; Back to L1
       </button>
@@ -36,7 +37,9 @@ function Lesson2() {
         <hr className="col-line" />
         <Practice />
         <hr className="col-line" />
-        <PT />
+        {/* <PT />
+        <hr className="col-line" /> */}
+        <PT2 />
         <hr className="col-line" />
         <SQ />
         <hr className="col-line" />
