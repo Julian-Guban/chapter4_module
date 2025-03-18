@@ -4,7 +4,7 @@ function introact() {
   return (
     <div className="overview-texts">
       <h2 className="overview-title">
-        Introductory Activity: <b>Access and Protect</b>
+        INRODUCTORY ACTIVITY: <b>SELF IMMERSION</b>
       </h2>
       <br />
       <h4>Access Control in IT Management</h4>
@@ -12,7 +12,8 @@ function introact() {
 
       <h4>Analysis Activity </h4>
       <p className="overview-intro">
-        INSTRUCTIONS:  Read the following scenarios and answer the questions given on a piece of paper
+        INSTRUCTIONS: Read the following scenarios and answer the questions
+        given on a piece of paper
       </p>
       <div className="grid col-2 gap-2">
         <div className="card">
@@ -59,5 +60,10 @@ function introact() {
     </div>
   );
 }
+
+
+{/*You have been hired by a small business to set up a new server for their company website and internal file sharing. The company expects moderate traffic on their website but wants to ensure it can handle potential growth. Additionally, employees need reliable access to shared files.
+
+Your task is to document the steps involved in setting up the server, predict performance issues under different levels of user load, and recommend optimizations to improve reliability and speed.*/}
 
 export default introact;

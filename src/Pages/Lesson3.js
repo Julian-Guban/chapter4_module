@@ -1,8 +1,8 @@
 import React from "react";
 import Hero from "../Parts/hero";
 
-import IntroductoryActivity from "../Parts/l1-parts/introact";
-import Objectives from "../Parts/l1-parts/objectives";
+import IntroductoryActivity from "../Parts/l3-parts/introact";
+import Objectives from "../Parts/l3-parts/objectives";
 import Topic from "../Parts/l1-parts/topic";
 import Practice from "../Parts/l1-parts/practice";
 import PT from "../Parts/l1-parts/performanceTask";
@@ -45,10 +45,10 @@ function Lesson3() {
         <div className="pretest">
           <button
             type="button"
-            onClick={() => navigate("/l2")}
+            onClick={() => navigate("/l4")}
             className="pretest-btn"
           >
-            Continue to L2 &rsaquo;
+            Continue to L4 &rsaquo;
           </button>
         </div>
         <Download/>

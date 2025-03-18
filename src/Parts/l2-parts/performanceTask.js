@@ -1,6 +1,7 @@
 import React from "react";
 import Apply from "../../Images/graphic_1151221.png";
-import Criteria from "../../Images/Criteria.png";
+import Criteria from "../../Images/l2/Criteria.png";
+import Write from "../../Images/write.png";  
 
 function performanceTask2() {
   return (
@@ -202,16 +203,56 @@ function performanceTask2() {
                   padding: "5px",
                 }}
               >
-                In this exercise, you played the role of an IT technician,
-                making critical decisions about network security and access
-                control. Assigning the correct permissions ensures files are
-                protected while allowing users to perform necessary tasks.
-                Understanding role-based access is essential for securing
-                organizational networks and preventing unauthorized data access.
+                In this exercise, you took on the role of a network
+                administrator, configuring essential network services such as
+                DHCP, DNS, and FTP. Setting up a DHCP server ensures dynamic IP
+                assignment, simplifying network management. Configuring the DNS
+                server allows domain name resolution, improving accessibility
+                and efficiency within the network. Installing and managing an
+                FTP server provides controlled file-sharing capabilities,
+                ensuring secure access and proper user permissions.
+                Understanding these configurations is crucial for maintaining a
+                functional and secure network infrastructure, preventing
+                connectivity issues, and ensuring seamless communication between
+                devices.
               </p>
             </div>
             <br />
           </div>
+        </div>
+        <br />
+
+        <h1 style={{ display: "flex", alignItems: "center" }}>
+          <a
+            href="https://www.freepik.com/icon/notes_11014477#fromView=search&page=1&position=2&uuid=6603ba82-271c-422c-a1f4-748908a5df2a"
+            target="_black"
+          >
+            <img
+              src={Write}
+              alt="Essay Writing"
+              width={"50px"}
+              height={"50px"}
+              style={{ paddingRight: "15px" }}
+            />
+          </a>
+          What have i Learned?
+        </h1>
+        <h3 className="overview-title">
+          <b>Essay</b>
+        </h3>
+        <div className="card">
+          {/* <h4>Objective:</h4> */}
+          <p className="overview-intro"
+          style={{fontSize: "15px"}}>
+            Reflect on your experiences or observations with network services,
+            such as DHCP, DNS, and FTP. Why do you think proper configuration is
+            the crucial part in ensuring a smooth and secure technological
+            experience? How might your attitude or approach toward managing
+            these services impact others (users) who rely on the network?
+            <p className="overview-intro">
+             
+            </p>
+          </p>
         </div>
       </div>
     </div>

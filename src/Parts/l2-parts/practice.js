@@ -1547,7 +1547,7 @@ function practice() {
               >
                 <img
                   src={WTC}
-                  alt="What to Consider?"
+                  alt="What is Folder Redirection?"
                   width={"50px"}
                   height={"50px"}
                   style={{ paddingRight: "15px" }}
@@ -1587,7 +1587,7 @@ function practice() {
               >
                 <img
                   src={ACT1}
-                  alt="What to Consider?"
+                  alt="Activity 1"
                   width={"50px"}
                   height={"50px"}
                   style={{ paddingRight: "15px" }}

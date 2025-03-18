@@ -6,7 +6,7 @@ import Topic from "../Parts/l2-parts/topic";
 import Practice from "../Parts/l2-parts/practice";
 import PT2 from "../Parts/l2-parts/performanceTask";
 // import PT from "../Parts/l1-parts/performanceTask";
-import SQ from "../Parts/l1-parts/ShortQuiz";
+import SQ from "../Parts/l2-parts/ShortQuiz";
 import References from "../Parts/l1-parts/references";
 import Download from "../Parts/fileDownload";
 import Footer from "../Parts/footer";
