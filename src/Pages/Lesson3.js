@@ -3,7 +3,7 @@ import Hero from "../Parts/hero";
 
 import IntroductoryActivity from "../Parts/l3-parts/introact";
 import Objectives from "../Parts/l3-parts/objectives";
-import Topic from "../Parts/l1-parts/topic";
+import Topic from "../Parts/l3-parts/topic";
 import Practice from "../Parts/l1-parts/practice";
 import PT from "../Parts/l1-parts/performanceTask";
 import SQ from "../Parts/l1-parts/ShortQuiz";
