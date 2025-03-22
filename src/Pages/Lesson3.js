@@ -4,9 +4,9 @@ import Hero from "../Parts/hero";
 import IntroductoryActivity from "../Parts/l3-parts/introact";
 import Objectives from "../Parts/l3-parts/objectives";
 import Topic from "../Parts/l3-parts/topic";
-import Practice from "../Parts/l1-parts/practice";
-import PT from "../Parts/l1-parts/performanceTask";
-import SQ from "../Parts/l1-parts/ShortQuiz";
+import Practice from "../Parts/l3-parts/practice";
+import PT from "../Parts/l3-parts/performanceTask";
+import SQ from "../Parts/l3-parts/ShortQuiz";
 import References from "../Parts/l1-parts/references";
 
 import Download from "../Parts/fileDownload";

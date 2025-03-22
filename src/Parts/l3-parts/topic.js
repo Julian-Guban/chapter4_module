@@ -6,6 +6,7 @@ import Explore from "../../Images/explore_471012.png";
 import WokerSafety from "../../Images/worker-safety_18404038.png";
 import WorkSafetyStandards from "../../Images/work-safety_12245162.png";
 import SampleForm from "../../Images/l3/Accident Report Form.png";
+import Act from "../../Images/write.png";
 
 function Topic() {
   
@@ -366,7 +367,74 @@ function Topic() {
         <br />
         <hr className="col-line" />
         <br />
-        <b className="overview-texts">LET’S ANALYZE</b>
+        <div className="topic-container">
+          <h1 style={{ display: "flex", alignItems: "center" }}>
+            <img
+              src={Act}
+              alt="Activities"
+              width={"50px"}
+              height={"50px"}
+              style={{ paddingRight: "15px" }}
+            />
+            ACTIVITIES
+          </h1>
+          <br />
+
+          <div className="topic-title flex-column flex-start">
+            <h1>Let's Analyze</h1>
+            <h3>Introductional Guide:</h3>
+            <p
+              className="card"
+              style={{ fontSize: "Large", alignSelf: "Start" }}
+            >
+              {"\u00A0\u00A0"}
+              {"\u00A0\u00A0"}
+              1. Find and open the command line tool on your computer.
+              <br />
+              {"\u00A0\u00A0"}
+              {"\u00A0\u00A0"}
+              2. Type the Ping Command <br />
+              {"\u00A0\u00A0"}
+              {"\u00A0\u00A0"}
+              3. Check the Results
+              <br />
+              <br />
+              {"\u00A0\u00A0"}
+              <b>Look For...</b>
+              <br />
+              <br />
+              {"\u00A0\u00A0"}
+              Reply: Confirms the server is reachable.
+              <br />
+              {"\u00A0\u00A0"}
+              Time: Shows response speed.
+              <br />
+              {"\u00A0\u00A0"}Packet Loss: Indicates connection quality.
+            </p>
+            <br />
+            <h1>Let's Apply</h1>
+            <h3>Introductional Guide:</h3>
+            <p
+              className="card"
+              style={{ fontSize: "Large", alignSelf: "Start" }}
+            >
+              Perform a simulation to test different system components based on
+              the specific requirements of a client or enterprise. Choose a
+              known company or enterprise for your simulation. Focus on
+              evaluating the following aspects, and explain your answer and how
+              you have concluded that answer.
+              <br />
+              <br />
+              Example Aspects: <br />
+              {"\u00A0\u00A0"}
+              1. Hardware Specifications
+              <br />
+              {"\u00A0\u00A0"}2. Network Configurations <br />
+              {"\u00A0\u00A0"}
+              3. Security Measures
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

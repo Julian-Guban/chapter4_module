@@ -1,6 +1,6 @@
 import React from "react";
 import Quiz from "../../Images/task-list_4861139.png";
-import QR from "../../Images/l2/qr.png";
+import QR from "../../Images/l3/qrquiz.png";
 
 function ShortQuiz() {
   return (
@@ -28,16 +28,16 @@ function ShortQuiz() {
         <p className="overview-intro">
           Now that you’ve explored the contents and activities of this lesson,
           it’s time to reflect on what you’ve learned. Answer this short quiz to
-          assess your understanding of DHCP, DNS, and FTP configurations and
-          implementation in a network environment. Apply what you’ve learned and
-          carefully consider each question. Good luck!
+          assess your understanding of server testing, safety precautions, and
+          network troubleshooting. Apply what you’ve learned and carefully
+          consider each question. Good luck!
         </p>
         <div className="card flex-center">
           <br />
           <div className="flex-center">
             <a
               className="tab-btns"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSff9zoVhRTJukBYukhxmxhtuggGvWSrqXWf9I_k8EDB42Dg8w/viewform?fbclid=IwY2xjawJLTY1leHRuA2FlbQIxMAABHdk47cdhhdQ1p1Z_D-sBiHNvdMGTCw91BicJZCg3ME23JbjHP2NlBIb9hw_aem_uFgjHwzAiyzLx0OYcZIVLQ"
+              href="https://docs.google.com/forms/d/1EG_ZL0Qkev25lWR267Wu0wD89BYjDp5djsd3a31uyTk/viewform?fbclid=IwY2xjawJLS99leHRuA2FlbQIxMAABHcv7l45K4iWby7lnkJ-kkOqgsVbP15nZyJ6pPmFODwv5zoig3yyEsjUaBA_aem_A6vTtZATgnLSvOGkr-XSBg&edit_requested=true"
             >
               <img
                 src={QR}

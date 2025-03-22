@@ -11,6 +11,7 @@ import t3 from "../../Images/l3/t3.png";
 import { useState } from "react";
 function Introact() {
   const [nosType, setNosType] = useState(1);
+  const [isFinished, setIsFinished] = useState(false); // State to track if the user has finished answering
   return (
     <div className="overview-texts">
       <h2 className="overview-title">
@@ -39,7 +40,8 @@ function Introact() {
         <button
           type="button"
           className={nosType === 2 ? "active" : ""}
-          onClick={() => setNosType(2)}
+          onClick={() => isFinished && setNosType(2)}
+          disabled={!isFinished}
         >
           Answers
         </button>
@@ -134,6 +136,16 @@ function Introact() {
             </div>
           </>
         )}
+      </div>
+      <br />
+      <div className="tab-btns">
+        <button
+          type="button"
+          className={nosType === 2 ? "active" : ""}
+          onClick={() => setIsFinished(true)}
+        >
+          Click here to finish answering
+        </button>
       </div>
     </div>
   );

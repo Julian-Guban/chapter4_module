@@ -2304,13 +2304,13 @@ function practice() {
             </div>
             <br />
 
-            <div className="flex-center flex-column">
+            {/* <div className="flex-center flex-column">
               <p>You may print this file to answer: </p>
               <br />
               <a className="tab-btns" href={File} download={File}>
                 <button>Download File</button>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
