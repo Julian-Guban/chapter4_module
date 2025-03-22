@@ -52,7 +52,7 @@ function ShortQuiz() {
               <br />
               <a
                 className="tab-btns"
-                href="https://forms.gle/RUnHvXGjU19kMfiQ7 "
+                href="https://docs.google.com/forms/d/1EG_ZL0Qkev25lWR267Wu0wD89BYjDp5djsd3a31uyTk/viewform?fbclid=IwY2xjawJLS99leHRuA2FlbQIxMAABHcv7l45K4iWby7lnkJ-kkOqgsVbP15nZyJ6pPmFODwv5zoig3yyEsjUaBA_aem_A6vTtZATgnLSvOGkr-XSBg&edit_requested=false "
               >
                 <button>Click Here</button>
               </a>
