@@ -18,10 +18,7 @@ function Lesson4() {
   return (
     <>
       <header>
-        <Hero
-          message={"Lesson 3:"}
-          topic={"Perform Testing and Documentation"}
-        />
+        <Hero message={"Lesson 4:"} topic={"Pre-Deployment Procedures"} />
       </header>
       <button
         type="button"
@@ -48,10 +45,10 @@ function Lesson4() {
         <div className="pretest">
           <button
             type="button"
-            onClick={() => navigate("/l4")}
+            onClick={() => navigate("/main")}
             className="pretest-btn"
           >
-            Continue to L4 &rsaquo;
+            Continue to Home &rsaquo;
           </button>
         </div>
         <Download />
