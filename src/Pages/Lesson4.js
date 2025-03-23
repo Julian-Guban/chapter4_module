@@ -9,7 +9,7 @@ import PT from "../Parts/l4-parts/performanceTask";
 import SQ from "../Parts/l4-parts/ShortQuiz";
 import References from "../Parts/l4-parts/references";
 
-import Download from "../Parts/fileDownload";
+import Download from "../Parts/fileDownloadl4";
 import Footer from "../Parts/footer";
 import { useNavigate } from "react-router-dom";
 
