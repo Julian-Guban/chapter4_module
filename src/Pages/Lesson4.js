@@ -5,9 +5,9 @@ import IntroductoryActivity from "../Parts/l4-parts/introact";
 import Objectives from "../Parts/l4-parts/objectives";
 import Topic from "../Parts/l4-parts/topic";
 import Practice from "../Parts/l3-parts/practice";
-import PT from "../Parts/l3-parts/performanceTask";
-import SQ from "../Parts/l3-parts/ShortQuiz";
-import References from "../Parts/l1-parts/references";
+import PT from "../Parts/l4-parts/performanceTask";
+import SQ from "../Parts/l4-parts/ShortQuiz";
+import References from "../Parts/l4-parts/references";
 
 import Download from "../Parts/fileDownload";
 import Footer from "../Parts/footer";
@@ -38,8 +38,8 @@ function Lesson4() {
         <hr className="col-line" />
         <Topic />
         <hr className="col-line" />
-        <Practice />
-        <hr className="col-line" />
+        {/* <Practice />
+        <hr className="col-line" /> */}
         <PT />
         <hr className="col-line" />
         <SQ />
