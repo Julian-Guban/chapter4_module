@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Hero from "../Parts/hero";
 
 import IntroductoryActivity from "../Parts/l1-parts/introact";
@@ -15,6 +15,11 @@ import { useNavigate } from "react-router-dom";
 
 function Lesson1() {
   const navigate = useNavigate();
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top when the component mounts
+  });  
+
   return (
     <>
       <header>

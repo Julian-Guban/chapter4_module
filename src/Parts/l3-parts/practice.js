@@ -1,15 +1,11 @@
 import React from "react";
-import WTD from "../../Images/list_2387635.png";
-import WTC from "../../Images/decision_11473538.png";
-import Practice from "../../Images/Practice.png";
-import File from "../../Files/TOPICpgLesson1-Chapter3-19.pdf";
 import Act from "../../Images/write.png";
 
 function practice() {
   return (
     <div className="full-width flex-center flex-column">
       <div className="topic-container">
-        <h1 style={{ display: "flex", alignItems: "center" }}>
+        <h1 className="overview-title">
           <img
             src={Act}
             alt="Activities"
@@ -17,7 +13,7 @@ function practice() {
             height={"50px"}
             style={{ paddingRight: "15px" }}
           />
-          ACTIVITIES
+          <b>ACTIVITIES</b>
         </h1>
         <h2 className="overview-title">Let's Analyze</h2>
         <br />
@@ -28,46 +24,29 @@ function practice() {
             style={{
               fontWeight: "lighter",
               lineHeight: "25px",
-              padding: "5px",
             }}
           >
-            {"\u00A0\u00A0"}
-            {"\u00A0\u00A0"}
             1. Find and open the command line tool on your computer.
             <br />
-            {"\u00A0\u00A0"}
-            {"\u00A0\u00A0"}
             2. Type the Ping Command <br />
-            {"\u00A0\u00A0"}
-            {"\u00A0\u00A0"}
             3. Check the Results
             <br />
+          </h4>
+          <br />
+          <div className="card">
             <br />
-            {"\u00A0\u00A0"}
             <b>Look For...</b>
             <br />
             <br />
-            {"\u00A0\u00A0"}
-            {"\u00A0\u00A0"}
-            Reply: Confirms the server is reachable.
-            <br />
-            {"\u00A0\u00A0"}
-            {"\u00A0\u00A0"}
-            Time: Shows response speed.
-            <br />
-            {"\u00A0\u00A0"}
-            {"\u00A0\u00A0"}Packet Loss: Indicates connection quality.
-          </h4>
+            <p>Reply: Confirms the server is reachable.</p>
+            <p>Time: Shows response speed.</p>
+            <p>Packet Loss: Indicates connection quality.</p>
+          </div>
           <br />
-          
-          
         </div>
         <br />
-
-        
       </div>
 
-      
       <br />
       <br />
     </div>

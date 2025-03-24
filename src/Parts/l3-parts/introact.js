@@ -15,7 +15,8 @@ function Introact() {
   return (
     <div className="overview-texts">
       <h2 className="overview-title">
-        INRODUCTORY ACTIVITY: <b>Spot the Difference</b>
+        Introductory Activity: 
+         <b> Spot the Difference </b>
       </h2>
       <br />
       <h4>Testing and Documentation</h4>

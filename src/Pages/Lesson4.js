@@ -1,10 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Hero from "../Parts/hero";
 
 import IntroductoryActivity from "../Parts/l4-parts/introact";
 import Objectives from "../Parts/l4-parts/objectives";
 import Topic from "../Parts/l4-parts/topic";
-import Practice from "../Parts/l3-parts/practice";
 import PT from "../Parts/l4-parts/performanceTask";
 import SQ from "../Parts/l4-parts/ShortQuiz";
 import References from "../Parts/l4-parts/references";
@@ -15,6 +14,11 @@ import { useNavigate } from "react-router-dom";
 
 function Lesson4() {
   const navigate = useNavigate();
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top when the component mounts
+  });
+
   return (
     <>
       <header>
@@ -22,11 +26,11 @@ function Lesson4() {
       </header>
       <button
         type="button"
-        onClick={() => navigate("/")}
+        onClick={() => navigate("/l3")}
         className="pretest-btn"
         style={{ margin: "10px" }}
       >
-        &lsaquo; Back to Home
+        &lsaquo; Back to L3
       </button>
       <main>
         <IntroductoryActivity />
@@ -35,8 +39,6 @@ function Lesson4() {
         <hr className="col-line" />
         <Topic />
         <hr className="col-line" />
-        {/* <Practice />
-        <hr className="col-line" /> */}
         <PT />
         <hr className="col-line" />
         <SQ />

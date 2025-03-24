@@ -1,6 +1,6 @@
 import React from "react";
 import Icon from "../Images/026ce97c-a078-4245-8743-c871498add29-removebg-preview.png";
-import Plan from "../Images/474454065_1335968427755931_8617461186670355990_n.jpg";
+import Plan from "../Images/Instructional_Blueprint.png";
 import QR from "../Images/pretestqr.png";
 
 function blueprint() {
@@ -41,7 +41,7 @@ function blueprint() {
             <div className="flex-center">
               <a
                 className="tab-btns"  
-                href="https://forms.gle/5xjK4PDmMhBDNGNV9"
+                href="https://forms.gle/SW11SXaGe8Rt1cL67"
               >
                 <img src={QR} alt="Pre-Test" width={"200px"} height={"200px"}  style={{padding: "5px"}} />
               </a>
@@ -51,7 +51,7 @@ function blueprint() {
                   How to Access the Pre-Test: </h4>
                 <a
                   className="tab-btns"
-                  href="https://forms.gle/5xjK4PDmMhBDNGNV9"
+                  href="https://forms.gle/SW11SXaGe8Rt1cL67"
                 >
                   <button>Click Here</button>
                 </a>

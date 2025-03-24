@@ -4,7 +4,8 @@ function introact() {
   return (
     <div className="overview-texts">
       <h2 className="overview-title">
-        Introductory Activity: <b> Two Truths and a Lie </b>
+        Introductory Activity:
+        <b> Two Truths and a Lie </b>
       </h2>
       <br />
       <div className="card">
@@ -13,9 +14,13 @@ function introact() {
         </h4>
         <p className="overview-intro">
           In this activity, you will analyze and evaluate statements related to
-          network services, specifically DHCP, DNS, and FTP. Two of the
-          statements are true, and one is false. Your task is to identify the
-          false statement and explain why it is incorrect.
+          network services, specifically DHCP, DNS, and FTP.
+          <br />
+          <br />
+          Two of the statements are true, and one is false.
+          <br />
+          Your task is to identify the false statement and explain why it is
+          incorrect.
         </p>
       </div>
       <br />

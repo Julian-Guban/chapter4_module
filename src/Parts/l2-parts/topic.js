@@ -8,7 +8,7 @@ function Topic() {
   return (
     <div className="full-width flex-center flex-column">
       <div className="topic-container">
-        <h1 style={{ display: "flex", alignItems: "center" }}>
+        <h2 className="overview-title flex-center">
           <img
             src={Bulb}
             alt="What to Know?"
@@ -17,7 +17,7 @@ function Topic() {
             style={{ paddingRight: "15px" }}
           />
           What to Know?
-        </h1>
+        </h2>
         <br />
         <div className="topic-title flex-column flex-center">
           <h1>The Backbone of Network Communication: </h1>
@@ -29,10 +29,15 @@ function Topic() {
         <p style={{ padding: "10px", lineHeight: "25px" }}>
           • In the vast digital landscape of today, where millions of devices
           connect and communicate seamlessly, there exist invisible forces that
-          ensure everything runs smoothly. Among them, three essential protocols
-          play a crucial role: <b>DHCP, FTP, and DNS.</b> Each of these serves a
-          unique purpose, working behind the scenes to keep networks functional
-          and efficient.
+          ensure everything runs smoothly.
+          <br />
+          <br />
+          Among them, three essential protocols play a crucial role:{" "}
+          <b>DHCP, FTP, and DNS.</b>
+          <br />
+          <br />
+          Each of these serves a unique purpose, working behind the scenes to
+          keep networks functional and efficient.
         </p>
       </div>
 

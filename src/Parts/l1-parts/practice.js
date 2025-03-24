@@ -8,7 +8,7 @@ function practice() {
   return (
     <div className="full-width flex-center flex-column">
       <div className="topic-container">
-        <h1 style={{ display: "flex", alignItems: "center" }}>
+        <h1 className="overview-title">
           <a
             href="https://www.freepik.com/icon/list_2387635#fromView=family&page=1&position=7&uuid=4fee7fe7-7469-49d4-84b2-1e4eb38433a7"
             target="_black"
@@ -21,13 +21,15 @@ function practice() {
               style={{ paddingRight: "15px" }}
             />
           </a>
-          What to Do?
+          <b>What to Do?</b>
         </h1>
         <h3 className="overview-title">
           Do you get a glimpse of it? Let’s have an exercise!
         </h3>
         <br />
+      </div>
 
+      <div className="topic-container">
         <div className="card">
           <h3>Scenario:</h3>
           <h4
@@ -38,11 +40,16 @@ function practice() {
             }}
           >
             Imagine you are working as a <b>Network Administrator</b> for a
-            small business. Your job is to ensure that the company's network
-            runs smoothly, remains secure, and allows employees to access the
-            necessary resources efficiently. Every day, you receive IT support
-            requests from employees experiencing different network-related
-            issues.
+            small business.
+            <br />
+            <br />
+            Your job is to ensure that the company's network runs smoothly,
+            remains secure, and allows employees to access the necessary
+            resources efficiently.
+            <br />
+            <br />
+            Every day, you receive IT support requests from employees
+            experiencing different network-related issues.
           </h4>
 
           <br />
@@ -97,11 +104,15 @@ function practice() {
                 In this exercise, you took on the role of a Network
                 Administrator, making key decisions about which network tools
                 and configurations to use for different real-world problems.
+                <br />
+                <br />
                 Selecting the appropriate feature or tool is essential for
                 ensuring network security, efficiency, and user accessibility in
-                any organization. By understanding how these solutions work,
-                you’ll be able to troubleshoot and manage network issues
-                effectively.
+                any organization.
+                <br />
+                <br />
+                By understanding how these solutions work, you’ll be able to
+                troubleshoot and manage network issues effectively.
               </p>
             </div>
             <br />
@@ -117,8 +128,8 @@ function practice() {
         </div>
       </div>
 
-      <div>
-        <h1 style={{ display: "flex", alignItems: "center" }}>
+      <div className="topic-container">
+        <h1 className="overview-title">
           <a
             href="https://www.freepik.com/icon/decision_11473538#fromView=family&page=1&position=3&uuid=108e389d-de23-4140-9aaa-0516c1366710"
             target="_black"
@@ -134,20 +145,21 @@ function practice() {
           What to Consider?
         </h1>
         <br />
-        <h4>Always remember: </h4>
-        <p className="overview-intro">
-          ✔ The right network configuration ensures security, efficiency, and
-          accessibility.
-          <br />
-          ✔ Incorrect settings can lead to security vulnerabilities, network
-          failures, or unauthorized access.
-          <br />✔ Proper handling and selection of network tools and policies is
-          a fundamental skill in network administration.
-        </p>
+        <div className="topic-container">
+          <h4>Always remember: </h4>
+          <p className="overview-intro">
+            ✔ The right network configuration ensures security, efficiency, and
+            accessibility.
+            <br />
+            ✔ Incorrect settings can lead to security vulnerabilities, network
+            failures, or unauthorized access.
+            <br />✔ Proper handling and selection of network tools and policies
+            is a fundamental skill in network administration.
+          </p>
+        </div>
       </div>
       <br />
       <br />
-
     </div>
   );
 }

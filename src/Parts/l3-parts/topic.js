@@ -6,16 +6,12 @@ import Explore from "../../Images/explore_471012.png";
 import WokerSafety from "../../Images/worker-safety_18404038.png";
 import WorkSafetyStandards from "../../Images/work-safety_12245162.png";
 import SampleForm from "../../Images/l3/Accident Report Form.png";
-import Act from "../../Images/write.png";
 
 function Topic() {
-  
-
-
   return (
     <div className="full-width flex-center flex-column">
       <div className="topic-container">
-        <h1 style={{ display: "flex", alignItems: "center" }}>
+        <h1 className="overview-title">
           <img
             src={Bulb}
             alt="What to Know?"
@@ -23,7 +19,7 @@ function Topic() {
             height={"50px"}
             style={{ paddingRight: "15px" }}
           />
-          Introduction
+          <b>Introduction</b>
         </h1>
         <br />
 
@@ -56,13 +52,13 @@ function Topic() {
 
         {/*end */}
 
-        <p style={{ fontSize: "large", alignSelf: "start" }}>
+        <p style={{ fontSize: "large" }}>
           • Performing <b>Testing and Documentation</b> is essential for
           Installing Computer Servers because it ensures that systems function
           correctly, issues are identified early, and maintenance processes are
           well-documented for future reference. <br />
         </p>
-        <p style={{ fontSize: "large", alignSelf: "start" }}>
+        <p style={{ fontSize: "large" }}>
           <a
             className="flex-center"
             target="_black"
@@ -169,7 +165,7 @@ function Topic() {
         <br />
         <br />
 
-        <p className="card" style={{ fontSize: "large", alignSelf: "start" }}>
+        <p className="card" style={{ fontSize: "large" }}>
           <b>Procedures</b>
           <br />
           {"\u00A0\u00A0"}
@@ -204,7 +200,7 @@ function Topic() {
         <br />
         <hr className="col-line" />
         <br />
-        <p className="card" style={{ fontSize: "Large", alignSelf: "Start" }}>
+        <p className="card" style={{ fontSize: "Large", alignSelf: "center" }}>
           <b>Accident Reports</b> <br /> Accident forms are used to give
           specific details with regard to accidents that happened in the
           laboratory during experiments.
@@ -219,7 +215,7 @@ function Topic() {
             name="info1"
             value="Name of the person injured"
           />
-          <label for="info1"> Name of the person injured</label>
+          <label htmlFor="info1"> Name of the person injured</label>
           <br />
           {"\u00A0\u00A0"}
           <input
@@ -228,7 +224,7 @@ function Topic() {
             name="info2"
             value="Date and time of the accident"
           />
-          <label for="info2"> Date and time of the accident</label>
+          <label htmlFor="info2"> Date and time of the accident</label>
           <br />
           {"\u00A0\u00A0"}
           <input
@@ -237,7 +233,7 @@ function Topic() {
             name="info3"
             value="Injury sustained"
           />
-          <label for="info3"> Injury sustained</label>
+          <label htmlFor="info3"> Injury sustained</label>
           <br />
           {"\u00A0\u00A0"}
           <input
@@ -246,7 +242,7 @@ function Topic() {
             name="info4"
             value="First aid given"
           />
-          <label for="info4"> First aid given</label>
+          <label htmlFor="info4"> First aid given</label>
           <br />
           {"\u00A0\u00A0"}
           <input
@@ -255,7 +251,10 @@ function Topic() {
             name="info5"
             value="Action taken to prevent further accidents"
           />
-          <label for="info5"> Action taken to prevent further accidents</label>
+          <label htmlFor="info5">
+            {" "}
+            Action taken to prevent further accidents
+          </label>
           <br />
           <br />
           <br />
@@ -273,7 +272,7 @@ function Topic() {
         <br />
         <hr className="col-line" />
         <br />
-        <p className="card" style={{ fontSize: "Large", alignSelf: "Start" }}>
+        <p className="card" style={{ fontSize: "Large" }}>
           <b>GUIDELINES FOR TESTING CONFIGURED COMPUTERS </b> <br />
           {"\u00A0\u00A0"}Instruction: Read the following steps per part of the
           computer configuration and follow accordingly.
@@ -332,109 +331,6 @@ function Topic() {
           <br />
         </p>
         <br />
-        <hr className="col-line" />
-        <br />
-        <p className="card" style={{ fontSize: "Large", alignSelf: "Start" }}>
-          <b>Checking Client Requirements</b>
-          <br />
-          <br />
-          {"\u00A0\u00A0"} <b>Steps and Procedures: </b> <br />
-          1. Review Requirements: Go through the client's document carefully.{" "}
-          <br />
-          2. Ask for Clarification: Meet with the client to confirm unclear
-          points.
-          <br />
-          3. Create a Checklist: List all confirmed requirements. <br />
-          4. Map Features: Match requirements to system features. <br />
-          5. Update the Document: Record any changes. <br />
-          6. Get Approval: Ask the client to confirm the updated requirements.
-          <br />
-          7. Ongoing Checks: Regularly review requirements during development.
-          <br />
-          <br />
-          <b>Importance of Ping Test. </b> <br />- A ping test is crucial for
-          network troubleshooting and monitoring because it verifies network
-          connectivity
-          <br />
-          <br />
-          • Open Command Prompt by pressing Win + R, typing cmd, and pressing
-          Enter. <br />• Type ping [IP address or website] (e.g., ping 8.8.8.8
-          or ping www.google.com).
-          <br /> • Press Enter to start the test. <br /> • Check the results for
-          response time, packet loss, or errors.
-          <br /> • Type exit and press Enter to close the Command Prompt.
-        </p>
-        <br />
-        <hr className="col-line" />
-        <br />
-        <div className="topic-container">
-          <h1 style={{ display: "flex", alignItems: "center" }}>
-            <img
-              src={Act}
-              alt="Activities"
-              width={"50px"}
-              height={"50px"}
-              style={{ paddingRight: "15px" }}
-            />
-            ACTIVITIES
-          </h1>
-          <br />
-
-          <div className="topic-title flex-column flex-start">
-            <h1>Let's Analyze</h1>
-            <h3>Introductional Guide:</h3>
-            <p
-              className="card"
-              style={{ fontSize: "Large", alignSelf: "Start" }}
-            >
-              {"\u00A0\u00A0"}
-              {"\u00A0\u00A0"}
-              1. Find and open the command line tool on your computer.
-              <br />
-              {"\u00A0\u00A0"}
-              {"\u00A0\u00A0"}
-              2. Type the Ping Command <br />
-              {"\u00A0\u00A0"}
-              {"\u00A0\u00A0"}
-              3. Check the Results
-              <br />
-              <br />
-              {"\u00A0\u00A0"}
-              <b>Look For...</b>
-              <br />
-              <br />
-              {"\u00A0\u00A0"}
-              Reply: Confirms the server is reachable.
-              <br />
-              {"\u00A0\u00A0"}
-              Time: Shows response speed.
-              <br />
-              {"\u00A0\u00A0"}Packet Loss: Indicates connection quality.
-            </p>
-            <br />
-            <h1>Let's Apply</h1>
-            <h3>Introductional Guide:</h3>
-            <p
-              className="card"
-              style={{ fontSize: "Large", alignSelf: "Start" }}
-            >
-              Perform a simulation to test different system components based on
-              the specific requirements of a client or enterprise. Choose a
-              known company or enterprise for your simulation. Focus on
-              evaluating the following aspects, and explain your answer and how
-              you have concluded that answer.
-              <br />
-              <br />
-              Example Aspects: <br />
-              {"\u00A0\u00A0"}
-              1. Hardware Specifications
-              <br />
-              {"\u00A0\u00A0"}2. Network Configurations <br />
-              {"\u00A0\u00A0"}
-              3. Security Measures
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   );

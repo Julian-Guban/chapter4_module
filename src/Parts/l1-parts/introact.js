@@ -10,24 +10,36 @@ function introact() {
       <h4>Access Control in IT Management</h4>
       <p className="overview-intro">
         In modern IT environments, managing access to sensitive data is crucial
-        for security and efficiency. Unauthorized access or improper permissions
-        can lead to data breaches, accidental deletions, and operational
-        disruptions. This case study explores the importance of assigning
-        appropriate access levels within an organization.
+        for security and efficiency.
+        <br />
+        <br />
+        Unauthorized access or improper permissions can lead to data breaches,
+        accidental deletions, and operational disruptions.
+        <br />
+        <br />
+        This case study explores the importance of assigning appropriate access
+        levels within an organization.
       </p>
+      <br />
       <div className="card">
         <h4>Scenario:</h4>
         <p className="overview-intro">
           You are an IT manager at a growing company that handles sensitive
-          data, such as employee records and financial information. Employees
-          have different access needs based on their roles. Recently, a
-          non-administrative employee accidentally deleted a critical file they
-          should not have been able to access. This incident raised concerns
-          about whether access permissions are correctly assigned.
+          data, such as employee records and financial information.
+          <br />
+          <br />
+          Employees have different access needs based on their roles.
+          <br />
+          Recently, a non-administrative employee accidentally deleted a
+          critical file they should not have been able to access.
+          <br />
+          <br />
+          This incident raised concerns about whether access permissions are
+          correctly assigned.
         </p>
       </div>
       <br />
-      <hr />
+      <hr className="col-line" />
       <br />
 
       <h4>Analysis Activity </h4>

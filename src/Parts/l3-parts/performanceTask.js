@@ -1,13 +1,12 @@
 import React from "react";
 import Apply from "../../Images/graphic_1151221.png";
-import Criteria from "../../Images/Criteria.png";
 import rubrics from "../../Images/l3/rubrics_l3.png";
 
 function performanceTask() {
   return (
     <div className="full-width flex-center flex-column">
       <div className="topic-container">
-        <h1 style={{ display: "flex", alignItems: "center" }}>
+        <h1 className="overview-title">
           <a
             href="https://www.freepik.com/icon/graphic_1151221#fromView=family&page=1&position=92&uuid=e2a110c7-9dc2-4422-9f7a-795bc9d360be"
             target="_black"
@@ -20,7 +19,7 @@ function performanceTask() {
               style={{ paddingRight: "15px" }}
             />
           </a>
-          LET’S APPLY
+          <b>Let's Apply</b>
         </h1>
         <h3 className="overview-title">
           Performance Task: <b>Simulation Testing</b>
@@ -36,24 +35,15 @@ function performanceTask() {
             concluded that answer.
           </p>
           <div className="card">
+            <br />
             <h4>Example Aspects:</h4>
-            <br />
-            {"\u00A0\u00A0"}
-            {"\u00A0\u00A0"}
-            1. Hardware Specifications
-            <br />
-            {"\u00A0\u00A0"}
-            {"\u00A0\u00A0"}
-            2. Network Configurations
-            <br />
-            {"\u00A0\u00A0"}
-            {"\u00A0\u00A0"}
-            3. Security Measures
-            <br />
+            <p>1. Hardware Specifications</p>
+            <p>2. Network Configurations</p>
+            <p>3. Security Measures</p>
           </div>
         </div>
-        <br />
-
+      </div>
+      <div className="topic-container">
         <div className="full-width flex-center">
           <img
             src={rubrics}
@@ -62,8 +52,8 @@ function performanceTask() {
             height={"513px"}
             style={{ padding: "15px" }}
           />
-          <div>
-            <div className="card">
+          <div className="sticky-board">
+            <div className="card sticky">
               <p
                 style={{
                   fontWeight: "lighter",
@@ -73,11 +63,16 @@ function performanceTask() {
               >
                 In this activity, you assumed the role of a system analyst,
                 evaluating different system components to meet client or
-                enterprise requirements. By selecting a known company or
-                enterprise, you assessed various aspects of system functionality
-                and performance. Understanding how to conduct simulations and
-                analyze results is essential for designing efficient and
-                effective IT solutions tailored to organizational needs.
+                enterprise requirements.
+                <br />
+                <br />
+                By selecting a known company or enterprise, you assessed various
+                aspects of system functionality and performance.
+                <br />
+                <br />
+                Understanding how to conduct simulations and analyze results is
+                essential for designing efficient and effective IT solutions
+                tailored to organizational needs.
               </p>
             </div>
             <br />

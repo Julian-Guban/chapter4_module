@@ -1,46 +1,44 @@
 import React from "react";
-import TextBox from "../../Components/TextBox";
 import TextArea from "../../Components/TextArea";
-
 
 function introact() {
   return (
     <div className="overview-texts">
       <h2 className="overview-title">
-        Introductory Activity: <b>Pre-Deployment Scenario Discussion </b>
+        Introductory Activity:
+        <b> Pre-Deployment Scenario Discussion </b>
       </h2>
       <br />
       <h4>Pre-Deployment in IT Management</h4>
       <br />
       <div className="card">
         <h4>Objective:</h4>
-        <p
-          className="overview-intro"
-          style={{ fontSize: "large", textAlign: "justify" }}
-        >
+        <p className="overview-intro">
           This activity introduces learners to the essential processes involved
           in setting up and securing a dedicated web server before deploying an
-          e-commerce platform. Through critical reflection, students will
-          explore the importance of these processes and analyze potential risks
-          if these steps are not followed.
+          e-commerce platform.
+          <br />
+          <br />
+          Through critical reflection, students will explore the importance of
+          these processes and analyze potential risks if these steps are not
+          followed.
         </p>
       </div>
       <br />
       <div className="card">
         <h4>Scenario:</h4>
-        <p
-          className="overview-intro"
-          style={{ fontSize: "large", textAlign: "justify" }}
-        >
+        <p className="overview-intro">
           A corporation is preparing to launch its new e-commerce platform and
-          must set up a dedicated web server to host the application. The IT
-          team is tasked with ensuring that the server is secure, properly
-          configured, and capable of handling the anticipated volume of client
-          traffic.
+          must set up a dedicated web server to host the application.
+          <br />
+          <br />
+          The IT team is tasked with ensuring that the server is secure,
+          properly configured, and capable of handling the anticipated volume of
+          client traffic.
         </p>
       </div>
       <br />
-      <hr />
+      <hr className="col-line" />
       <br />
       <h4>Analysis Activity </h4>
       <p className="overview-intro">
@@ -62,11 +60,12 @@ function introact() {
             • How could restricting access affect employees’ ability to perform
             their tasks?
           </p>
-          <br />
-          Enter your answer:
-          <br />
-          <br />
-          <TextArea />
+          <div className="full-width flex-center flex-column">
+            <br />
+            Enter your answer:
+            <br />
+            <TextArea />
+          </div>
         </div>
 
         <div className="card">
@@ -83,11 +82,12 @@ function introact() {
             • How do these steps contribute to the platform’s reliability and
             customer trust?
           </p>
-          <br />
-          Enter your answer:
-          <br />
-          <br />
-          <TextArea />
+          <div className="full-width flex-center flex-column">
+            <br />
+            Enter your answer:
+            <br />
+            <TextArea />
+          </div>
         </div>
 
         <div className="card">
@@ -105,10 +105,12 @@ function introact() {
             system failures that may affect business operations.
           </p>
           <br />
-          Enter your answer:
-          <br />
-          <br />
-          <TextArea />
+          <div className="full-width flex-center flex-column">
+            <br />
+            Enter your answer:
+            <br />
+            <TextArea />
+          </div>
         </div>
       </div>
     </div>

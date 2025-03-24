@@ -21,7 +21,7 @@ function ShortQuiz() {
             style={{ paddingRight: "15px" }}
           />
         </a>
-        What to Check!
+        <b>What to Check!</b>
       </h1>
       <div className="card" style={{ margin: "20px" }}>
         <h4>Scenario:</h4>

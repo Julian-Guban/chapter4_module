@@ -1,8 +1,5 @@
 import React from "react";
 import Bulb from "../../Images/5cfc8918-06a1-47c8-aa07-5224f1d34b2c-removebg-preview.png";
-import pic1 from "../../Images/l2/1.png";
-import pic2 from "../../Images/l2/2.png";
-import pic3 from "../../Images/l2/3.png";
 import fav from "../../Images/star_4371364.png";
 import Risk from "../../Images/analysis_14963087.png";
 
@@ -10,7 +7,7 @@ function Topic() {
   return (
     <div className="full-width flex-center flex-column">
       <div className="topic-container">
-        <h1 style={{ display: "flex", alignItems: "center" }}>
+        <h1 className="overview-title">
           <img
             src={Bulb}
             alt="What to Know?"
@@ -18,7 +15,7 @@ function Topic() {
             height={"50px"}
             style={{ paddingRight: "15px" }}
           />
-          LET'S LEARN
+          <b>Let's Learn</b>
         </h1>
         <br />
         <div
@@ -41,16 +38,20 @@ function Topic() {
             fontWeight: "lighter",
             padding: "15px",
             lineHeight: "20px",
-            fontSize: "20px",
           }}
         >
           Pre-deployment procedures in the context of setting-up computer
           servers refer to the critical steps performed before deploying and
-          configuring a server. These procedures ensure that the server
-          environment is properly prepared, configured, and tested to meet
-          operational requirements. Whether setting up a web server, database
-          server, or application server, following a structured pre-deployment
-          plan minimizes risks and ensures smooth operation.
+          configuring a server.
+          <br />
+          <br />
+          These procedures ensure that the server environment is properly
+          prepared, configured, and tested to meet operational requirements.
+          <br />
+          <br />
+          Whether setting up a web server, database server, or application
+          server, following a structured pre-deployment plan minimizes risks and
+          ensures smooth operation.
         </h4>
         <br />
         <br />
@@ -59,18 +60,19 @@ function Topic() {
             fontWeight: "lighter",
             padding: "15px",
             lineHeight: "20px",
-            fontSize: "20px",
           }}
         >
           Server deployment involves installing necessary hardware and software
           components, configuring network settings, and ensuring security
-          protocols are in place. Proper pre-deployment practices prevent errors
-          that could disrupt system performance, compromise security, or result
-          in service downtime. Additionally, pre-deployment procedures ensure
-          that the server meets the needs of the organization, supports
-          scalability, and complies with relevant standards and protocols.
+          protocols are in place. <br />
+          <br /> Proper pre-deployment practices prevent errors that could
+          disrupt system performance, compromise security, or result in service
+          downtime.
+          <br />
+          <br /> Additionally, pre-deployment procedures ensure that the server
+          meets the needs of the organization, supports scalability, and
+          complies with relevant standards and protocols.
         </h4>
-        {/* <img src={pic1} alt="DHCP" width={"800px"} height={"355px"} /> */}
         <br />
         <div className="full-width flex-center">
           <div className="topic-container">
@@ -93,11 +95,9 @@ function Topic() {
                 To achieve a successful server setup, it is essential to follow
                 these pre-deployment steps:
               </p>
-              <br />
-              <br />
             </div>
 
-            <div className="full-width flex-center">
+            <div className="full-width flex-center flex-column">
               <table>
                 <colgroup>
                   <col style={{ width: "250px" }} />
@@ -209,7 +209,7 @@ function Topic() {
         <br />
 
         <div className="full-width">
-          <h3 style={{ padding: "10px" }}>
+          <h3 className="overview-title">
             <img
               src={Risk}
               alt="Risk"
@@ -219,7 +219,8 @@ function Topic() {
             />
             <b>Potential Risks of Inadequate Pre-Deployment Procedures </b>
           </h3>
-          <div className="card" style={{ fontSize: "20px" }}>
+            <br />
+            <div className="card" style={{ fontSize: "20px" }}>
             Failure to follow thorough pre-deployment procedures can lead to
             significant risks and operational challenges. Some potential risks
             include:
@@ -316,10 +317,6 @@ function Topic() {
       <br />
       <br />
       <br />
-
-      
-     
-      
     </div>
   );
 }

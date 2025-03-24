@@ -5,7 +5,7 @@ function obectives() {
   return (
     <div className="overview-texts" style={{ backgroundColor: "#292929" }}>
       <br />
-      <h1 style={{ display: "flex", alignItems: "center" }}>
+      <h1 className="overview-title">
         <img
           src={FAQ}
           alt="What I Need to Know?"
@@ -13,7 +13,7 @@ function obectives() {
           height={"50px"}
           style={{ paddingRight: "15px" }}
         />
-        What I Need to Know?
+        <b>What I Need to Know?</b>
       </h1>
       <br />
 

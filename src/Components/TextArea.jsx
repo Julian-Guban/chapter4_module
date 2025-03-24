@@ -1,19 +1,10 @@
 import { useState } from "react";
 
-interface TextAreaProps {
-  id: string;
-  label?: string;
-  rows?: number;
-  cols?: number;
-  defaultValue?: string;
-}
-
-export default function TextArea({ id, rows = 4, cols = 50 }: TextAreaProps) {
+export default function TextArea({ id, rows = 4, cols = 50 }) {
   const [value, setValue] = useState("");
 
   return (
-    <div>
-      
+    <div className="full-width">
       <textarea
         id={id}
         rows={rows}
@@ -22,7 +13,8 @@ export default function TextArea({ id, rows = 4, cols = 50 }: TextAreaProps) {
         onChange={(e) => setValue(e.target.value)}
         style={{
           color: "black",
-          width: "80%",
+          width: "95%",
+          alignSelf: "center",
           minHeight: "100px",
           padding: "10px",
           fontSize: "16px",

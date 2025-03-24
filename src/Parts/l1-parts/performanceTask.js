@@ -6,7 +6,7 @@ function performanceTask() {
   return (
     <div className="full-width flex-center flex-column">
       <div className="topic-container">
-        <h1 style={{ display: "flex", alignItems: "center" }}>
+        <h2 className="overview-title">
           <a
             href="https://www.freepik.com/icon/graphic_1151221#fromView=family&page=1&position=92&uuid=e2a110c7-9dc2-4422-9f7a-795bc9d360be"
             target="_black"
@@ -19,8 +19,9 @@ function performanceTask() {
               style={{ paddingRight: "15px" }}
             />
           </a>
-          Apply and Perform!
-        </h1>
+          <b>Apply and Perform!</b>
+        </h2>
+        <br />
         <h3 className="overview-title">
           Performance Task: <b>P2P Network Access Setup</b>
         </h3>
@@ -29,10 +30,14 @@ function performanceTask() {
           <h4>Scenario:</h4>
           <p className="overview-intro">
             Imagine you are an IT technician setting up a peer-to-peer (P2P)
-            network for a small office with two computers. The goal is to enable
-            secure file sharing while ensuring that different users have the
-            appropriate access to the shared folder based on their roles.
+            network for a small office with two computers.
+            <br />
+            <br />
+            The goal is to enable secure file sharing while ensuring that
+            different users have the appropriate access to the shared folder
+            based on their roles.
           </p>
+          <br />
           <div className="card">
             <h4>Task:</h4>
             <p className="overview-intro">
@@ -50,108 +55,109 @@ function performanceTask() {
             </p>
           </div>
         </div>
-        <br />
+      </div>
+      <br />
 
-        <div style={{ backgroundColor: "#292929" }}>
-          <p style={{ padding: "15px" }}>
-            <b>Instructions:</b>
-          </p>
-          <table className="full-width" style={{ borderSpacing: "20px" }}>
-            <colgroup>
-              <col style={{ width: "300px" }} />
-              <col style={{ width: "auto" }} />
-            </colgroup>
-            <thead>
-              <tr>
-                <th>Steps</th>
-                <th>Description</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>
-                  <b>1. Set up the P2P network</b>
-                </td>
-                <td>
-                  - Connect both computers via a switch, router, or direct
-                  connection (e.g., Ethernet cable or Wi-Fi).
+      <div style={{ backgroundColor: "#292929" }}>
+        <p style={{ padding: "15px" }}>
+          <b>Instructions:</b>
+        </p>
+        <table className="full-width" style={{ borderSpacing: "20px" }}>
+          <colgroup>
+            <col style={{ width: "300px" }} />
+            <col style={{ width: "auto" }} />
+          </colgroup>
+          <thead>
+            <tr>
+              <th>Steps</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <b>1. Set up the P2P network</b>
+              </td>
+              <td>
+                - Connect both computers via a switch, router, or direct
+                connection (e.g., Ethernet cable or Wi-Fi).
+                <br />
+                <br />
+                - Configure IP addresses (use static IPs or enable Dynamic Host
+                Configuration Protocol (DHCP)).
+                <br />
+                <br />- Ensure that both computers are in the same workgroup
+                (Windows) or same network (Linux/macOS).
+                <br />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <b>2. Enable File Sharing</b>
+              </td>
+              <td>
+                - On one computer, create a shared folder for office files.
+                <br />
+                <br />- Enable file sharing settings to allow other computers to
+                access it.
+                <br />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <b>3. Configure Role-Based Access</b>
+              </td>
+              <td className="flex-center flex-column">
+                <p className="full-width">
+                  - Assign permissions to users based on their roles:
+                </p>
+                <ul>
                   <br />
+                  <li>
+                    <b>Admin:</b> Full control.
+                  </li>
                   <br />
-                  - Configure IP addresses (use static IPs or enable Dynamic
-                  Host Configuration Protocol (DHCP)).
+                  <li>
+                    <b>Manager:</b> Modify permissions for specific files only.
+                  </li>
                   <br />
-                  <br />- Ensure that both computers are in the same workgroup
-                  (Windows) or same network (Linux/macOS).
+                  <li>
+                    <b>Employee:</b> Read-only access.
+                  </li>
                   <br />
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <b>2. Enable File Sharing</b>
-                </td>
-                <td>
-                  - On one computer, create a shared folder for office files.
+                  <li>
+                    <b>Guest:</b> No access.
+                  </li>
                   <br />
-                  <br />- Enable file sharing settings to allow other computers
-                  to access it.
-                  <br />
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <b>3. Configure Role-Based Access</b>
-                </td>
-                <td className="flex-center flex-column">
-                  <p className="full-width">
-                    - Assign permissions to users based on their roles:
-                  </p>
-                  <ul>
-                    <br />
-                    <li>
-                      <b>Admin:</b> Full control.
-                    </li>
-                    <br />
-                    <li>
-                      <b>Manager:</b> Modify permissions for specific files
-                      only.
-                    </li>
-                    <br />
-                    <li>
-                      <b>Employee:</b> Read-only access.
-                    </li>
-                    <br />
-                    <li>
-                      <b>Guest:</b> No access.
-                    </li>
-                    <br />
-                  </ul>
-                  <p className="full-width">
-                    - Use Windows File Sharing (NTFS permissions) or Linux
-                    commands to enforce these permissions.
-                  </p>
-                  <br />
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <b>4. Document Your Process</b>
-                </td>
-                <td>
-                  - List the tools and settings you used (e.g., network
-                  settings, file sharing configurations).
-                  <br />
-                  <br />
-                  - Explain why each role was assigned specific access
-                  permissions.
-                  <br />
-                  <br />- Provide screenshots (if applicable) or describe any
-                  challenges faced during setup.
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+                </ul>
+                <p className="full-width">
+                  - Use Windows File Sharing (NTFS permissions) or Linux
+                  commands to enforce these permissions.
+                </p>
+                <br />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <b>4. Document Your Process</b>
+              </td>
+              <td>
+                - List the tools and settings you used (e.g., network settings,
+                file sharing configurations).
+                <br />
+                <br />
+                - Explain why each role was assigned specific access
+                permissions.
+                <br />
+                <br />- Provide screenshots (if applicable) or describe any
+                challenges faced during setup.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
+      <div className="topic-container">
         <div className="full-width flex-center">
           <img
             src={Criteria}
@@ -171,8 +177,13 @@ function performanceTask() {
               >
                 In this exercise, you played the role of an IT technician,
                 making critical decisions about network security and access
-                control. Assigning the correct permissions ensures files are
-                protected while allowing users to perform necessary tasks.
+                control.
+                <br />
+                <br />
+                Assigning the correct permissions ensures files are protected
+                while allowing users to perform necessary tasks.
+                <br />
+                <br />
                 Understanding role-based access is essential for securing
                 organizational networks and preventing unauthorized data access.
               </p>
@@ -180,7 +191,6 @@ function performanceTask() {
             <br />
           </div>
         </div>
-
       </div>
     </div>
   );

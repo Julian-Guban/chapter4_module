@@ -27,12 +27,18 @@ function ShortQuiz() {
         <h4>Scenario:</h4>
         <p className="overview-intro">
           Now that you’ve explored the contents and activities of this lesson,
-          it’s time to reflect on what you’ve learned. Answer this short quiz to
-          assess your understanding of user access level configurations, their
-          classifications, proper selection, and implementation in a network
-          environment. Apply what you’ve learned and carefully consider each
-          question. Good luck!
+          it’s time to reflect on what you’ve learned.
+          <br />
+          <br />
+          Answer this short quiz to assess your understanding of user access
+          level configurations, their classifications, proper selection, and
+          implementation in a network environment.
+          <br />
+          <br />
+          Apply what you’ve learned and carefully consider each question. Good
+          luck!
         </p>
+        <br />
         <div className="card flex-center">
           <br />
           <div className="flex-center">
@@ -63,8 +69,8 @@ function ShortQuiz() {
       <hr className="col-line" />
       <br />
 
-      <h1 className="overview-title">
-        <a
+      <h2 className="overview-title flex-center">
+      <a
           href="https://www.freepik.com/icon/task-list_4861139#fromView=family&page=1&position=16&uuid=637bfeb8-9ac3-4d03-90bc-13055505bdd7"
           target="_black"
         >
@@ -77,7 +83,7 @@ function ShortQuiz() {
           />
         </a>
         What I have learned?
-      </h1>
+      </h2>
       <div className="card" style={{ margin: "20px" }}>
         <p className="overview-intro">
           Reflect on the activities and discussions from this lesson about

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Hero from "../Parts/hero";
 
 import IntroductoryActivity from "../Parts/l3-parts/introact";
@@ -15,18 +15,26 @@ import { useNavigate } from "react-router-dom";
 
 function Lesson3() {
   const navigate = useNavigate();
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top when the component mounts
+  });
+
   return (
     <>
       <header>
-      <Hero message={"Lesson 3:"} topic={"Perform Testing and Documentation"} />
+        <Hero
+          message={"Lesson 3:"}
+          topic={"Perform Testing and Documentation"}
+        />
       </header>
       <button
         type="button"
-        onClick={() => navigate("/")}
+        onClick={() => navigate("/l2")}
         className="pretest-btn"
-        style={{margin: "10px"}}
+        style={{ margin: "10px" }}
       >
-        &lsaquo; Back to Home
+        &lsaquo; Back to L2
       </button>
       <main>
         <IntroductoryActivity />
@@ -51,12 +59,11 @@ function Lesson3() {
             Continue to L4 &rsaquo;
           </button>
         </div>
-        <Download/>
+        <Download />
       </main>
       <footer>
         <Footer />
       </footer>
-
     </>
   );
 }

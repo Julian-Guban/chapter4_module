@@ -11,7 +11,7 @@ function Topic() {
   return (
     <div className="full-width flex-center flex-column">
       <div className="topic-container">
-        <h1 style={{ display: "flex", alignItems: "center" }}>
+      <h2 className="overview-title flex-center">
           <img
             src={Bulb}
             alt="What to Know?"
@@ -19,11 +19,11 @@ function Topic() {
             height={"50px"}
             style={{ paddingRight: "15px" }}
           />
-          What to Know?
-        </h1>
+          <b>What to Know?</b>
+        </h2>
         <br />
         <div className="topic-title flex-column flex-center">
-          <h1>Understanding Set-up User Access:</h1>
+          <h1 className="overview-title">Understanding Set-up User Access:</h1>
           <h3>
             Network Operating System (NOS) features, User Access Level
             Configuration, Network Policies and Services, and Peer-to-Peer(P2P)
@@ -564,7 +564,6 @@ function Topic() {
         </table>
 
         <br />
-
       </div>
     </div>
   );
