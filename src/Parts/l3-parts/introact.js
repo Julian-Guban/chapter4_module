@@ -1,63 +1,157 @@
 import React from "react";
-
-function introact() {
+import a1p1 from "../../Images/l3/act1pic1.png";
+import a1p2 from "../../Images/l3/act1pict2.png";
+import a1p3 from "../../Images/l3/act1pic3.png"; 
+import a1p1an1 from "../../Images/l3/act1pic1a1.png";
+import a1p2an2 from "../../Images/l3/act1pic2a2.png";
+import a1p3an3 from "../../Images/l3/act1pic3a3.png";
+import t1 from "../../Images/l3/t1.png";
+import t2 from "../../Images/l3/t2.png";
+import t3 from "../../Images/l3/t3.png";
+import { useState } from "react";
+function Introact() {
+  const [nosType, setNosType] = useState(1);
+  const [isFinished, setIsFinished] = useState(false); // State to track if the user has finished answering
   return (
     <div className="overview-texts">
       <h2 className="overview-title">
-        Introductory Activity: <b>Access and Protect</b>
+        INRODUCTORY ACTIVITY: <b>Spot the Difference</b>
       </h2>
       <br />
-      <h4>Access Control in IT Management</h4>
+      <h4>Testing and Documentation</h4>
       <br />
 
       <h4>Analysis Activity </h4>
       <p className="overview-intro">
-        INSTRUCTIONS:  Read the following scenarios and answer the questions given on a piece of paper
+        INSTRUCTIONS: Identify the difference in each picture representing
+        “bugs” hiding from identical images.
       </p>
+      <h4>SPOT 3 differences(BUG) for each picture.</h4>
+      <br />
+      <br />
+      <div className="tab-btns">
+        <button
+          type="button"
+          className={nosType === 1 ? "active" : ""}
+          onClick={() => setNosType(1)}
+        >
+          Activity 1
+        </button>
+        <button
+          type="button"
+          className={nosType === 2 ? "active" : ""}
+          onClick={() => isFinished && setNosType(2)}
+          disabled={!isFinished}
+        >
+          Answers
+        </button>
+      </div>
       <div className="grid col-2 gap-2">
-        <div className="card">
-          <p>1. Understanding the Risks</p>
-          <br />
-          <p>
-            • What potential risks arise when employees are given excessive
-            access?
-          </p>
-          <br />
-          <p>
-            • How could restricting access affect employees’ ability to perform
-            their tasks?
-          </p>
-        </div>
+        {nosType === 1 && (
+          <>
+            <div className="card">
+              <br />
 
-        <div className="card">
-          <p>2. Developing a Solution</p>
-          <br />
-          <p>
-            • What network policies should be implemented to ensure proper
-            access levels?
-          </p>
-          <br />
-          <p>
-            • How can an IT department maintain security without limiting
-            productivity?
-          </p>
-        </div>
+              <img
+                src={a1p1}
+                alt="act 1 pic 1"
+                width={"80%"}
+                height={"100%"}
+                style={{ padding: "15px", paddingLeft: "50px" }}
+              />
 
-        <div className="card">
-          <p>3. Personal Reflection</p>
-          <br />
-          <p>
-            • Why is protecting sensitive data important in an organization?
-          </p>
-          <br />
-          <p>
-            • How do you feel about the balance between security and
-            accessibility in a workplace?
-          </p>
-        </div>
+              <br />
+            </div>
+
+            <div className="card">
+              <br />
+
+              <img
+                src={a1p2}
+                alt=" act 1 pic 2"
+                width={"80%"}
+                height={"100%"}
+                style={{ padding: "15px", paddingLeft: "50px" }}
+              />
+
+              <br />
+            </div>
+
+            <div className="card">
+              <br />
+              <img
+                src={a1p3}
+                alt="act 1 pic 3"
+                width={"80%"}
+                height={"100%"}
+                style={{ padding: "15px", paddingLeft: "50px" }}
+              />
+
+              <br />
+            </div>
+          </>
+        )}
+
+        {nosType === 2 && (
+          <>
+            <div className="card">
+              <br />
+
+              <img
+                src={t1}
+                alt=" act 1 pic 1 answer 1"
+                width={"80%"}
+                height={"100%"}
+                style={{ padding: "15px", paddingLeft: "50px" }}
+              />
+
+              <br />
+            </div>
+
+            <div className="card">
+              <br />
+
+              <img
+                src={t2}
+                alt=" act 1 pic 2 answer 2"
+                width={"80%"}
+                height={"100%"}
+                style={{ padding: "15px", paddingLeft: "50px" }}
+              />
+
+              <br />
+            </div>
+
+            <div className="card">
+              <br />
+              <img
+                src={t3}
+                alt="act 1 pic 3 answer 3"
+                width={"80%"}
+                height={"100%"}
+                style={{ padding: "15px", paddingLeft: "50px" }}
+              />
+
+              <br />
+            </div>
+          </>
+        )}
+      </div>
+      <br />
+      <div className="tab-btns">
+        <button
+          type="button"
+          className={nosType === 2 ? "active" : ""}
+          onClick={() => setIsFinished(true)}
+        >
+          Click here to finish answering
+        </button>
       </div>
     </div>
   );
 }
 
-export default introact;
+
+
+
+export default Introact;
