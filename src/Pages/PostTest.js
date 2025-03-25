@@ -41,8 +41,10 @@ function PostTest() {
             <div className="flex-center">
               <a
                 className="tab-btns"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdw1grJBO4K2nvhrPygc11-Le4B2oOT0tl8xOZvrjHTVgeW_A/viewform"
-              >
+                target="_blank"
+                rel="noreferrer"
+                href="https://forms.gle/EPtC7M1m62Mvm9Vd8"
+                >
                 <img
                   src={QR}
                   alt="Pre-Test"
