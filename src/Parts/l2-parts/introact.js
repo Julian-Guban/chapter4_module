@@ -1,4 +1,5 @@
 import React from "react";
+import TextArea from "../../Components/TextArea";
 
 function introact() {
   return (
@@ -78,6 +79,12 @@ function introact() {
             <br />
             3. <b>FTP</b> is used to manage email on a server.
           </p>
+          <div className="full-width flex-center flex-column">
+            <br />
+            Enter your answer:
+            <br />
+            <TextArea />
+          </div>
         </div>
 
         <div className="card">
@@ -94,6 +101,12 @@ function introact() {
             3. <b>DHCP</b> requires manual configuration of IP addresses for
             each device.
           </p>
+          <div className="full-width flex-center flex-column">
+            <br />
+            Enter your answer:
+            <br />
+            <TextArea />
+          </div>
         </div>
 
         <div className="card">
@@ -111,6 +124,12 @@ function introact() {
             3. <b>FTP</b> uses ports 20 and 21 for data transfer and command
             control.
           </p>
+          <div className="full-width flex-center flex-column">
+            <br />
+            Enter your answer:
+            <br />
+            <TextArea />
+          </div>
         </div>
 
         <div className="card">
@@ -128,6 +147,12 @@ function introact() {
             3. <b>DNS</b> servers contain a database of domain names and their
             corresponding IP addresses.
           </p>
+          <div className="full-width flex-center flex-column">
+            <br />
+            Enter your answer:
+            <br />
+            <TextArea />
+          </div>
         </div>
       </div>
     </div>

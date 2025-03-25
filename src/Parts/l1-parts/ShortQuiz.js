@@ -1,6 +1,7 @@
 import React from "react";
 import Quiz from "../../Images/task-list_4861139.png";
 import QR from "../../Images/l1/qr.png";
+import TextArea from "../../Components/TextArea";
 
 function ShortQuiz() {
   return (
@@ -113,6 +114,13 @@ function ShortQuiz() {
             topic.
           </i>
         </p>
+        <div className="full-width flex-center flex-column">
+          Enter your answer:
+          <br />
+          <TextArea />
+        </div>
+        <br />
+
         <p className="overview-intro">
           <i>
             2. How do network policies, such as authentication and data
@@ -123,6 +131,13 @@ function ShortQuiz() {
             context.
           </i>
         </p>
+        <div className="full-width flex-center flex-column">
+          Enter your answer:
+          <br />
+          <TextArea />
+        </div>
+        <br />
+
         <p className="overview-intro">
           <i>
             3. Share examples from the activities or real-life situations where
@@ -131,7 +146,13 @@ function ShortQuiz() {
             ethical responsibility it involves?
           </i>
         </p>
-      </div>
+        <div className="full-width flex-center flex-column">
+          Enter your answer:
+          <br />
+          <TextArea />
+        </div>
+        <br />
+        </div>
     </div>
   );
 }

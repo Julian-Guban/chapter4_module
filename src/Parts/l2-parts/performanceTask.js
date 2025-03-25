@@ -2,6 +2,7 @@ import React from "react";
 import Apply from "../../Images/graphic_1151221.png";
 import Criteria from "../../Images/l2/Criteria.png";
 import Write from "../../Images/write.png";
+import TextArea from "../../Components/TextArea";
 
 function performanceTask2() {
   return (
@@ -156,7 +157,7 @@ function performanceTask2() {
             style={{ padding: "15px" }}
           />
           <div className="sticky-board">
-          <div className="card sticky">
+            <div className="card sticky">
               <p
                 style={{
                   fontWeight: "lighter",
@@ -193,6 +194,7 @@ function performanceTask2() {
           <br />
         </div>
       </div>
+      <hr className="col-line"/>
       <div className="topic-container">
         <h1 className="overview-title flex-center">
           <a
@@ -209,10 +211,11 @@ function performanceTask2() {
           </a>
           <b>What have i Learned?</b>
         </h1>
-        <h3 className="overview-title">
-          <b>Essay: </b>
-        </h3>
-        <div className="card">
+
+        <div className="card flex-center flex-column">
+          <h3 className="overview-title">
+            <b>Essay: </b>
+          </h3>{" "}
           <p className="overview-intro ">
             Reflect on your experiences or observations with network services,
             such as DHCP, DNS, and FTP.
@@ -225,6 +228,12 @@ function performanceTask2() {
             How might your attitude or approach toward managing these services
             impact others (users) who rely on the network?
           </p>
+          <div className="full-width flex-center flex-column">
+            <br />
+            Enter your answer:
+            <br />
+            <TextArea />
+          </div>
         </div>
       </div>
     </div>

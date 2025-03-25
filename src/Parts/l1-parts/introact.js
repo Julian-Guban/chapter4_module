@@ -1,4 +1,5 @@
 import React from "react";
+import TextArea from "../../Components/TextArea";
 
 function introact() {
   return (
@@ -60,6 +61,12 @@ function introact() {
             • How could restricting access affect employees’ ability to perform
             their tasks?
           </p>
+          <div className="full-width flex-center flex-column">
+            <br />
+            Enter your answer:
+            <br />
+            <TextArea />
+          </div>
         </div>
 
         <div className="card">
@@ -74,6 +81,12 @@ function introact() {
             • How can an IT department maintain security without limiting
             productivity?
           </p>
+          <div className="full-width flex-center flex-column">
+            <br />
+            Enter your answer:
+            <br />
+            <TextArea />
+          </div>
         </div>
 
         <div className="card">
@@ -87,6 +100,12 @@ function introact() {
             • How do you feel about the balance between security and
             accessibility in a workplace?
           </p>
+          <div className="full-width flex-center flex-column">
+            <br />
+            Enter your answer:
+            <br />
+            <TextArea />
+          </div>
         </div>
       </div>
     </div>
