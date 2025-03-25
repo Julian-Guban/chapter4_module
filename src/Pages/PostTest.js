@@ -88,6 +88,7 @@ function PostTest() {
             <a
               href="https://ped5-css.vercel.app/"
               target="_blank"
+              rel="noreferrer"
               className="pretest-btn"
               style={{ margin: "10px" }}
             >

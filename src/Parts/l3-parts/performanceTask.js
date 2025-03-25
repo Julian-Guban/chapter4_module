@@ -25,7 +25,7 @@ function performanceTask() {
           Performance Task: <b>Simulation Testing</b>
         </h3>
         <br />
-        <div className="card">
+        <div className="card flex-center flex-column">
           <h4>Instructional Guide: </h4>
           <p className="overview-intro">
             Perform a simulation to test different system components based on

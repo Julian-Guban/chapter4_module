@@ -18,7 +18,7 @@ function practice() {
         <h2 className="overview-title">Let's Analyze</h2>
         <br />
 
-        <div className="card">
+        <div className="card flex-center flex-column">
           <h3>Introductional Guide:</h3>
           <h4
             style={{

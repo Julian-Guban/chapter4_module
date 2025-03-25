@@ -32,7 +32,7 @@ function performanceTask() {
           </b>
         </h3>
         <br />
-        <div className="card">
+        <div className="card flex-center flex-column">
           <h4>Objective:</h4>
           <p className="overview-intro">
             To familiarize students with the essential hardware and software

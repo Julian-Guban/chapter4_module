@@ -23,7 +23,7 @@ function ShortQuiz() {
         </a>
         What to Check!
       </h1>
-      <div className="card" style={{ margin: "20px" }}>
+      <div className="card flex-center flex-column" style={{ margin: "20px" }}>
         <h4>Instructions:</h4>
         <p className="overview-intro">
           Now that you’ve explored the contents and activities of this lesson,

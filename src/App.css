@@ -145,7 +145,6 @@ main {
   padding: 45px 85px;
   align-self: center;
   align-items: center;
-  overflow-y: auto;
 }
 
 .overview-title {
@@ -158,7 +157,7 @@ main {
   width: fit-content;
   padding: 15px 0px;
   line-height: 25px;
-  font-size: small;
+  font-size: medium;
   font-weight: lighter;
   text-align: left;
 }
