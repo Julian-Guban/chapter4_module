@@ -11,7 +11,8 @@ function ShortQuiz() {
       <h1 className="overview-title">
         <a
           href="https://www.freepik.com/icon/task-list_4861139#fromView=family&page=1&position=16&uuid=637bfeb8-9ac3-4d03-90bc-13055505bdd7"
-          target="_black"
+          target="_blank"
+          rel="noreferrer"
         >
           <img
             src={Quiz}
@@ -36,13 +37,15 @@ function ShortQuiz() {
           <div className="flex-center">
             <a
               className="tab-btns"
+              target="_blank"
+              rel="noreferrer"
               href="https://docs.google.com/forms/d/e/1FAIpQLSdw1grJBO4K2nvhrPygc11-Le4B2oOT0tl8xOZvrjHTVgeW_A/viewform"
             >
               <img
                 src={QR}
                 alt="Pre-Test"
                 width={"200px"}
-                height={"250px"}
+                height={"225px"}
                 style={{ padding: "5px" }}
               />
             </a>
@@ -51,6 +54,8 @@ function ShortQuiz() {
               <br />
               <a
                 className="tab-btns"
+                target="_blank"
+                rel="noreferrer"
                 href="https://forms.gle/oGo5GSttC8658ib77"
               >
                 <button>Click Here</button>
@@ -79,13 +84,14 @@ function ShortQuiz() {
         </a>
         What I have learned?
       </h1>
-      <div className="card overview-title" style={{ margin: "20px", textAlign: "center" }}>
+      <div
+        className="card overview-title"
+        style={{ margin: "20px", textAlign: "center" }}
+      >
         <br />
         <br />
         <h3>Personal Reflection and Value Statement </h3>
-        
-       
-       
+
         <p className="overview-intro"></p>
       </div>
       <div className="topic-container">
@@ -102,7 +108,6 @@ function ShortQuiz() {
             dynamics, and overall success
           </i>
         </p>
-        
       </div>
     </div>
   );

@@ -58,7 +58,9 @@ function PostTest() {
                 <br />
                 <a
                   className="tab-btns"
-                  href="https://forms.gle/oGo5GSttC8658ib77"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://forms.gle/EPtC7M1m62Mvm9Vd8"
                 >
                   <button>Click Here</button>
                 </a>

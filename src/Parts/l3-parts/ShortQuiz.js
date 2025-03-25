@@ -11,7 +11,8 @@ function ShortQuiz() {
       <h1 className="overview-title">
         <a
           href="https://www.freepik.com/icon/task-list_4861139#fromView=family&page=1&position=16&uuid=637bfeb8-9ac3-4d03-90bc-13055505bdd7"
-          target="_black"
+          target="_blank"
+          rel="noreferrer"
         >
           <img
             src={Quiz}
@@ -37,13 +38,15 @@ function ShortQuiz() {
           <div className="flex-center">
             <a
               className="tab-btns"
+              target="_blank"
+              rel="noreferrer"
               href="https://docs.google.com/forms/d/1EG_ZL0Qkev25lWR267Wu0wD89BYjDp5djsd3a31uyTk/viewform?fbclid=IwY2xjawJLS99leHRuA2FlbQIxMAABHcv7l45K4iWby7lnkJ-kkOqgsVbP15nZyJ6pPmFODwv5zoig3yyEsjUaBA_aem_A6vTtZATgnLSvOGkr-XSBg&edit_requested=true"
             >
               <img
                 src={QR}
                 alt="Pre-Test"
                 width={"200px"}
-                height={"250px"}
+                height={"225px"}
                 style={{ padding: "5px" }}
               />
             </a>
@@ -52,6 +55,8 @@ function ShortQuiz() {
               <br />
               <a
                 className="tab-btns"
+                target="_blank"
+                rel="noreferrer"
                 href="https://docs.google.com/forms/d/1EG_ZL0Qkev25lWR267Wu0wD89BYjDp5djsd3a31uyTk/viewform?fbclid=IwY2xjawJLS99leHRuA2FlbQIxMAABHcv7l45K4iWby7lnkJ-kkOqgsVbP15nZyJ6pPmFODwv5zoig3yyEsjUaBA_aem_A6vTtZATgnLSvOGkr-XSBg&edit_requested=false "
               >
                 <button>Click Here</button>

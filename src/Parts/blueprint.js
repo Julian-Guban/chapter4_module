@@ -40,25 +40,33 @@ function blueprint() {
             <br />
             <div className="flex-center">
               <a
-                className="tab-btns"  
+                className="tab-btns"
+                target="_blank"
+                rel="noreferrer"
                 href="https://forms.gle/SW11SXaGe8Rt1cL67"
               >
-                <img src={QR} alt="Pre-Test" width={"200px"} height={"200px"}  style={{padding: "5px"}} />
+                <img
+                  src={QR}
+                  alt="Pre-Test"
+                  width={"200px"}
+                  height={"200px"}
+                  style={{ padding: "5px" }}
+                />
               </a>
 
               <div className="flex-center flex-column">
-                <h4 style={{padding: "5px"}}>
-                  How to Access the Pre-Test: </h4>
+                <h4 style={{ padding: "5px" }}>How to Access the Pre-Test: </h4>
                 <a
                   className="tab-btns"
+                  target="_blank"
+                  rel="noreferrer"
                   href="https://forms.gle/SW11SXaGe8Rt1cL67"
                 >
                   <button>Click Here</button>
                 </a>
               </div>
-              
             </div>
-            </div>
+          </div>
         </div>
       </div>
     </div>

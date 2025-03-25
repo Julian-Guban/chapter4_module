@@ -11,7 +11,8 @@ function ShortQuiz() {
       <h1 className="overview-title">
         <a
           href="https://www.freepik.com/icon/task-list_4861139#fromView=family&page=1&position=16&uuid=637bfeb8-9ac3-4d03-90bc-13055505bdd7"
-          target="_black"
+          target="_blank"
+          rel="noreferrer"
         >
           <img
             src={Quiz}
@@ -42,7 +43,12 @@ function ShortQuiz() {
         <div className="card flex-center">
           <br />
           <div className="flex-center">
-            <a className="tab-btns" href="https://forms.gle/X313QwAnMtbHLn1CA">
+            <a
+              className="tab-btns"
+              target="_blank"
+              rel="noreferrer"
+              href="https://forms.gle/X313QwAnMtbHLn1CA"
+            >
               <img
                 src={QR}
                 alt="Pre-Test"
@@ -56,6 +62,8 @@ function ShortQuiz() {
               <br />
               <a
                 className="tab-btns"
+                target="_blank"
+                rel="noreferrer"
                 href="https://forms.gle/X313QwAnMtbHLn1CA"
               >
                 <button>Click Here</button>
@@ -70,7 +78,7 @@ function ShortQuiz() {
       <br />
 
       <h2 className="overview-title flex-center">
-      <a
+        <a
           href="https://www.freepik.com/icon/task-list_4861139#fromView=family&page=1&position=16&uuid=637bfeb8-9ac3-4d03-90bc-13055505bdd7"
           target="_black"
         >
