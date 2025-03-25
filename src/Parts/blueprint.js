@@ -27,7 +27,7 @@ function blueprint() {
         />
 
         <br />
-        <div className="card">
+        <div className="card flex-center flex-column">
           <p style={{ lineHeight: "25px" }}>
             Diving directly into the lesson might be too straight-forward, let’s
             put you into a test on what you already know about{" "}

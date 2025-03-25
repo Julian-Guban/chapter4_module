@@ -322,7 +322,7 @@ function PreTest({ successChange }) {
   };
 
   return (
-    <div className="pretest flex-column">
+    <div className="pretest flex-center flex-column">
       <h1>Pre-Test:</h1>
       <br/>
       <h4>

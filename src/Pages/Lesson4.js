@@ -44,14 +44,34 @@ function Lesson4() {
         <SQ />
         <hr className="col-line" />
         <References />
-        <div className="pretest">
+        <div
+          className="full-width"
+          style={{
+            display: "flex",
+            justifyContent: "space-around",
+            alignItems: "center",
+          }}
+        >
+          <div style={{ width: "100%" }}>
           <button
-            type="button"
-            onClick={() => navigate("/main")}
-            className="pretest-btn"
-          >
-            Continue to Home &rsaquo;
-          </button>
+              type="button"
+              onClick={() => navigate("/")}
+              className="pretest-btn"
+              style={{margin: "10px"}}
+            >
+              &lsaquo; Back To Home
+            </button>
+          </div>
+          <div className="pretest">
+            <button
+              type="button"
+              onClick={() => navigate("/pt")}
+              className="pretest-btn"
+              style={{margin: "10px"}}
+            >
+              Proceed to Post-Test &rsaquo;
+            </button>
+          </div>
         </div>
         <Download />
       </main>

@@ -26,11 +26,10 @@ function practice() {
         <h3 className="overview-title">
           Do you get a glimpse of it? Let’s have an exercise!
         </h3>
-        <br />
       </div>
 
       <div className="topic-container">
-        <div className="card">
+        <div className="card flex-center flex-column">
           <h3>Scenario:</h3>
           <h4
             style={{
@@ -144,7 +143,6 @@ function practice() {
           </a>
           What to Consider?
         </h1>
-        <br />
         <div className="topic-container">
           <h4>Always remember: </h4>
           <p className="overview-intro">

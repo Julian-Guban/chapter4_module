@@ -26,7 +26,7 @@ function performanceTask() {
           Performance Task: <b>P2P Network Access Setup</b>
         </h3>
         <br />
-        <div className="card">
+        <div className="card flex-center flex-column">
           <h4>Scenario:</h4>
           <p className="overview-intro">
             Imagine you are an IT technician setting up a peer-to-peer (P2P)
@@ -166,8 +166,8 @@ function performanceTask() {
             height={"513px"}
             style={{ padding: "15px" }}
           />
-          <div>
-            <div className="card">
+          <div className="sticky-board">
+            <div className="card sticky">
               <p
                 style={{
                   fontWeight: "lighter",

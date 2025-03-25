@@ -6,6 +6,7 @@ import Lesson3 from "./Pages/Lesson3";
 import Lesson4 from "./Pages/Lesson4";
 import Main from "./Pages/Main";
 import Redirect from "./Pages/redirectionRoute";
+import PostTest from "./Pages/PostTest";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path={"/l2"} element={<Lesson2 />} />
           <Route path={"/l3"} element={<Lesson3 />} />
           <Route path={"/l4"} element={<Lesson4 />} />
+          <Route path={"/pt"} element={<PostTest/>}/>
           <Route path="*" element={<Redirect />} />
           </Routes>
       </BrowserRouter>
