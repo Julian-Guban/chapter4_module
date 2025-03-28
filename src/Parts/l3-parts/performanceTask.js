@@ -1,6 +1,6 @@
 import React from "react";
 import Apply from "../../Images/graphic_1151221.png";
-import rubrics from "../../Images/l3/rubrics_l3.png";
+import rubrics from "../../Images/l3/lesson3_act_rubric.png";
 
 function performanceTask() {
   return (
