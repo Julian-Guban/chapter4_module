@@ -8,86 +8,92 @@ import BENF from "../../Images/values_11340020.png";
 import GZ from "../../Images/applause_9104907.png";
 import pic4 from "../../Images/l2/4.png";
 import pic5 from "../../Images/l2/5.png";
-import pic6 from "../../Images/l2/6.png";
-import pic7 from "../../Images/l2/7.png";
-import pic8 from "../../Images/l2/8.png";
-import pic9 from "../../Images/l2/9.png";
-import pic10 from "../../Images/l2/10.png";
-import pic11 from "../../Images/l2/11.png";
-import pic12 from "../../Images/l2/12.png";
-import pic13 from "../../Images/l2/13.png";
-import pic14 from "../../Images/l2/14.png";
-import pic15 from "../../Images/l2/15.png";
-import pic16 from "../../Images/l2/16.png";
-import pic17 from "../../Images/l2/17.png";
-import pic18 from "../../Images/l2/18.png";
-import pic19 from "../../Images/l2/19.png";
-import pic20 from "../../Images/l2/20.png";
-import pic21 from "../../Images/l2/21.png";
-import pic22 from "../../Images/l2/22.png";
-import pic23 from "../../Images/l2/23.png";
-import pic24 from "../../Images/l2/24.png";
-import pic25 from "../../Images/l2/25.png";
-import pic26 from "../../Images/l2/26.png";
-import pic27 from "../../Images/l2/27.png";
-import pic28 from "../../Images/l2/28.png";
-import pic29 from "../../Images/l2/29.png";
-import pic30 from "../../Images/l2/30.png";
-import pic31 from "../../Images/l2/31.png";
-import pic32 from "../../Images/l2/32.png";
-import pic33 from "../../Images/l2/33.png";
-import pic34 from "../../Images/l2/34.png";
-import pic35 from "../../Images/l2/35.png";
-import pic36 from "../../Images/l2/36.png";
-import pic37 from "../../Images/l2/37.png";
-import pic38 from "../../Images/l2/38.png";
-import pic39 from "../../Images/l2/39.png";
-import pic40 from "../../Images/l2/40.png";
-import pic41 from "../../Images/l2/41.png";
-import pic42 from "../../Images/l2/42.png";
-import pic43 from "../../Images/l2/43.png";
-import pic44 from "../../Images/l2/44.png";
-import pic45 from "../../Images/l2/45.png";
-import pic46 from "../../Images/l2/46.png";
-import pic47 from "../../Images/l2/47.png";
-import pic48 from "../../Images/l2/48.png";
-import pic49 from "../../Images/l2/49.png";
-import pic50 from "../../Images/l2/50.png";
-import pic51 from "../../Images/l2/51.png";
-import pic52 from "../../Images/l2/52.png";
-import pic53 from "../../Images/l2/53.png";
-import pic54 from "../../Images/l2/54.png";
-import pic55 from "../../Images/l2/55.png";
-import pic56 from "../../Images/l2/56.png";
-import pic57 from "../../Images/l2/57.png";
-import pic58 from "../../Images/l2/58.png";
-import pic59 from "../../Images/l2/59.png";
-import pic60 from "../../Images/l2/60.png";
-import pic61 from "../../Images/l2/61.png";
-import pic62 from "../../Images/l2/62.png";
-import pic63 from "../../Images/l2/63.png";
-import pic64 from "../../Images/l2/64.png";
-import pic65 from "../../Images/l2/65.png";
-import pic66 from "../../Images/l2/66.png";
-import pic67 from "../../Images/l2/67.png";
-import pic68 from "../../Images/l2/68.png";
-import pic69 from "../../Images/l2/69.png";
-import pic70 from "../../Images/l2/70.png";
-import pic71 from "../../Images/l2/71.png";
-import pic72 from "../../Images/l2/72.png";
-import pic73 from "../../Images/l2/73.png";
-import pic74 from "../../Images/l2/74.png";
-import pic75 from "../../Images/l2/75.png";
-import pic76 from "../../Images/l2/76.png";
-import pic77 from "../../Images/l2/77.png";
-import pic78 from "../../Images/l2/78.png";
-import pic79 from "../../Images/l2/79.png";
-import pic80 from "../../Images/l2/80.png";
-import pic81 from "../../Images/l2/81.png";
-import pic82 from "../../Images/l2/82.png";
-import pic83 from "../../Images/l2/83.png";
-import pic84 from "../../Images/l2/84.png";
-import pic85 from "../../Images/l2/85.png";
+import pic6 from "../../Images/l2/Lesson 2 - Screenshots/1.png";
+import pic7 from "../../Images/l2/Lesson 2 - Screenshots/2.png";
+
+import pic8 from "../../Images/l2/Lesson 2 - Screenshots/3.png";
+import pic8dot1 from "../../Images/l2/Lesson 2 - Screenshots/4.png";
+
+import pic9 from "../../Images/l2/Lesson 2 - Screenshots/5.png";
+
+import pic10 from "../../Images/l2/Lesson 2 - Screenshots/6.png";
+import pic10dot1 from "../../Images/l2/Lesson 2 - Screenshots/7.png";
+
+import pic11 from "../../Images/l2/Lesson 2 - Screenshots/8.png";
+import pic12 from "../../Images/l2/Lesson 2 - Screenshots/9.png";
+import pic13 from "../../Images/l2/Lesson 2 - Screenshots/10.png";
+import pic14 from "../../Images/l2/Lesson 2 - Screenshots/11.png";
+import pic15 from "../../Images/l2/Lesson 2 - Screenshots/12.png";
+import pic16 from "../../Images/l2/Lesson 2 - Screenshots/13.png";
+import pic17 from "../../Images/l2/Lesson 2 - Screenshots/14.png";
+import pic18 from "../../Images/l2/Lesson 2 - Screenshots/15.png";
+import pic19 from "../../Images/l2/Lesson 2 - Screenshots/16.png";
+import pic20 from "../../Images/l2/Lesson 2 - Screenshots/17.png";
+import pic21 from "../../Images/l2/Lesson 2 - Screenshots/18.png";
+import pic22 from "../../Images/l2/Lesson 2 - Screenshots/19.png";
+import pic23 from "../../Images/l2/Lesson 2 - Screenshots/20.png";
+import pic24 from "../../Images/l2/Lesson 2 - Screenshots/21.png";
+import pic25 from "../../Images/l2/Lesson 2 - Screenshots/22.png";
+import pic26 from "../../Images/l2/Lesson 2 - Screenshots/23.png";
+import pic27 from "../../Images/l2/Lesson 2 - Screenshots/24.png";
+import pic28 from "../../Images/l2/Lesson 2 - Screenshots/25.png";
+import pic29 from "../../Images/l2/Lesson 2 - Screenshots/26.png";
+import pic30 from "../../Images/l2/Lesson 2 - Screenshots/27.png";
+import pic31 from "../../Images/l2/Lesson 2 - Screenshots/28.png";
+import pic32 from "../../Images/l2/Lesson 2 - Screenshots/29.png";
+import pic33 from "../../Images/l2/Lesson 2 - Screenshots/30.png";
+import pic34 from "../../Images/l2/Lesson 2 - Screenshots/31.png";
+import pic35 from "../../Images/l2/Lesson 2 - Screenshots/32.png";
+import pic36 from "../../Images/l2/Lesson 2 - Screenshots/33.png";
+import pic37 from "../../Images/l2/Lesson 2 - Screenshots/34.png";
+import pic38 from "../../Images/l2/Lesson 2 - Screenshots/35.png";
+import pic39 from "../../Images/l2/Lesson 2 - Screenshots/36.png";
+import pic40 from "../../Images/l2/Lesson 2 - Screenshots/37.png";
+import pic41 from "../../Images/l2/Lesson 2 - Screenshots/38.png";
+import pic42 from "../../Images/l2/Lesson 2 - Screenshots/39.png";
+import pic43 from "../../Images/l2/Lesson 2 - Screenshots/40.png";
+import pic44 from "../../Images/l2/Lesson 2 - Screenshots/41.png";
+import pic45 from "../../Images/l2/Lesson 2 - Screenshots/42.png";
+import pic46 from "../../Images/l2/Lesson 2 - Screenshots/43.png";
+import pic47 from "../../Images/l2/Lesson 2 - Screenshots/44.png";
+import pic48 from "../../Images/l2/Lesson 2 - Screenshots/45.png";
+import pic49 from "../../Images/l2/Lesson 2 - Screenshots/46.png";
+import pic50 from "../../Images/l2/Lesson 2 - Screenshots/47.png";
+import pic51 from "../../Images/l2/Lesson 2 - Screenshots/48.png";
+import pic52 from "../../Images/l2/Lesson 2 - Screenshots/49.png";
+import pic53 from "../../Images/l2/Lesson 2 - Screenshots/50.png";
+import pic54 from "../../Images/l2/Lesson 2 - Screenshots/51.png";
+import pic55 from "../../Images/l2/Lesson 2 - Screenshots/52.png";
+import pic56 from "../../Images/l2/Lesson 2 - Screenshots/53.png";
+import pic57 from "../../Images/l2/Lesson 2 - Screenshots/54.png";
+import pic58 from "../../Images/l2/Lesson 2 - Screenshots/55.png";
+import pic59 from "../../Images/l2/Lesson 2 - Screenshots/56.png";
+import pic60 from "../../Images/l2/Lesson 2 - Screenshots/57.png";
+import pic61 from "../../Images/l2/Lesson 2 - Screenshots/58.png";
+import pic62 from "../../Images/l2/Lesson 2 - Screenshots/59.png";
+import pic63 from "../../Images/l2/Lesson 2 - Screenshots/60.png";
+import pic64 from "../../Images/l2/Lesson 2 - Screenshots/61.png";
+import pic65 from "../../Images/l2/Lesson 2 - Screenshots/62.png";
+import pic66 from "../../Images/l2/Lesson 2 - Screenshots/63.png";
+import pic67 from "../../Images/l2/Lesson 2 - Screenshots/64.png";
+import pic68 from "../../Images/l2/Lesson 2 - Screenshots/65.png";
+import pic69 from "../../Images/l2/Lesson 2 - Screenshots/66.png";
+import pic70 from "../../Images/l2/Lesson 2 - Screenshots/67.png";
+import pic71 from "../../Images/l2/Lesson 2 - Screenshots/68.png";
+import pic72 from "../../Images/l2/Lesson 2 - Screenshots/69.png";
+import pic73 from "../../Images/l2/Lesson 2 - Screenshots/70.png";
+import pic74 from "../../Images/l2/Lesson 2 - Screenshots/71.png";
+import pic75 from "../../Images/l2/Lesson 2 - Screenshots/72.png";
+import pic76 from "../../Images/l2/Lesson 2 - Screenshots/73.png";
+import pic77 from "../../Images/l2/Lesson 2 - Screenshots/74.png";
+import pic78 from "../../Images/l2/Lesson 2 - Screenshots/75.png";
+import pic79 from "../../Images/l2/Lesson 2 - Screenshots/76.png";
+import pic80 from "../../Images/l2/Lesson 2 - Screenshots/77.png";
+import pic81 from "../../Images/l2/Lesson 2 - Screenshots/78.png";
+import pic82 from "../../Images/l2/Lesson 2 - Screenshots/79.png";
+import pic83 from "../../Images/l2/Lesson 2 - Screenshots/80.png";
+import pic84 from "../../Images/l2/Lesson 2 - Screenshots/81.png";
+import pic85 from "../../Images/l2/Lesson 2 - Screenshots/82.png";
 import pic86 from "../../Images/l2/86.png";
 import pic87 from "../../Images/l2/87.png";
 import pic88 from "../../Images/l2/88.png";
@@ -221,7 +227,7 @@ function practice() {
             src={pic7}
             alt=" "
             width={"710px"}
-            height={"303px"}
+            height={"443px"}
             style={{ padding: "15px" }}
           />
           <br />
@@ -252,13 +258,22 @@ function practice() {
               <br />
             </p>
           </div>
-          <img
-            src={pic8}
-            alt=" "
-            width={"710px"}
-            height={"403px"}
-            style={{ padding: "15px" }}
-          />
+          <div className="flex-center">
+            <img
+              src={pic8}
+              alt=" "
+              width={"710px"}
+              height={"443px"}
+              style={{ padding: "15px" }}
+            />
+            <img
+              src={pic8dot1}
+              alt=" "
+              width={"710px"}
+              height={"443px"}
+              style={{ padding: "15px" }}
+            />
+          </div>
           <p
             style={{
               width: "90%",
@@ -274,13 +289,13 @@ function practice() {
             2. Tap the link beside the computer name to <b>Rename</b>
             <br />
           </p>
-          <img
-            src={pic9}
-            alt=" "
-            width={"710px"}
-            height={"403px"}
-            style={{ padding: "15px" }}
-          />
+            <img
+              src={pic9}
+              alt=" "
+              width={"710px"}
+              height={"403px"}
+              style={{ padding: "15px" }}
+            />
           <p
             style={{
               width: "90%",
@@ -292,13 +307,22 @@ function practice() {
             On the Computer name tab click change...
             <br />
           </p>
+          <div className="flex-center">
           <img
             src={pic10}
             alt=" "
             width={"710px"}
-            height={"403px"}
+            height={"443px"}
             style={{ padding: "15px" }}
           />
+          <img
+            src={pic10dot1}
+            alt=" "
+            width={"710px"}
+            height={"443px"}
+            style={{ padding: "15px" }}
+          />
+          </div>
           <p
             style={{
               width: "90%",
@@ -313,6 +337,7 @@ function practice() {
             • In the Server Manager – Dashboard Click Add roles and features
             <br />• In the Before You Begin, click Next to continue
           </p>
+
           <img
             src={pic11}
             alt=" "
@@ -1544,8 +1569,8 @@ function practice() {
           <br />
           <hr className="col-line" />
           <br />
-        <h1 className="overview-title flex-center">
-        <a
+          <h1 className="overview-title flex-center">
+            <a
               href="https://www.freepik.com/icon/decision_11473538#fromView=family&page=1&position=3&uuid=108e389d-de23-4140-9aaa-0516c1366710"
               target="_black"
             >
@@ -1968,7 +1993,7 @@ function practice() {
           <hr className="col-line" />
           <br />
           <div className="card">
-        <h1 className="overview-title flex-center">
+            <h1 className="overview-title flex-center">
               <a
                 href="https://www.freepik.com/icon/decision_11473538#fromView=family&page=1&position=3&uuid=108e389d-de23-4140-9aaa-0516c1366710"
                 target="_black"
@@ -2306,7 +2331,7 @@ function practice() {
 
       <div className="full-width flex-center flex-column">
         <h1 className="overview-title flex-center">
-        <a
+          <a
             href="https://www.freepik.com/icon/decision_11473538#fromView=family&page=1&position=3&uuid=108e389d-de23-4140-9aaa-0516c1366710"
             target="_black"
           >
