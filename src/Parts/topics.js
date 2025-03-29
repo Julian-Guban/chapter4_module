@@ -11,6 +11,7 @@ function topics() {
           info={
             "In this lesson, you will learn about understanding user access levels and network policies, configuring user permissions and security settings, and managing user accounts and access control to ensure proper user access."
           }
+          link={"/l1"}
         />
         <CardTopics
           title={"Configure Network"}
@@ -18,6 +19,7 @@ function topics() {
           info={
             "This lesson focuses on setting up and managing network services, configuring network modules and add-ons, and ensuring network security while addressing potential incidents to maintain a secure and efficient network environment."
           }
+          link={"/l2"}
         />
         <CardTopics
           title={"Perform Testing and Documentation"}
@@ -25,6 +27,7 @@ function topics() {
           info={
             "In this lesson, you will gain knowledge on conducting pre deployment testing and checking requirements, documenting findings and Information Communication Technology Computer Systems Servicing (CSS) – Set-Up Computer Servers creating reports, and ensuring end-user security and operational readiness for a smooth deployment process."
           }
+          link={"/l3"}
         />
         <CardTopics
           title={"Pre-Deployment Procedures"}
@@ -32,6 +35,7 @@ function topics() {
           info={
             "This final lesson covers finalizing server configurations and network settings, conducting peer-to-peer (P2P) network checks, and preparing for enterprise-level deployment while addressing any unexpected issues to ensure a successful deployment."
           }
+          link={"/l4"}
         />
       </div>
     </div>
