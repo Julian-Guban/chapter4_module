@@ -1000,6 +1000,7 @@ function practice() {
             • Click Next to continue
             <br />
           </p>
+          {/* !!*/}
           <img
             src={lpic39}
             alt=" "
@@ -1023,7 +1024,7 @@ function practice() {
             <br />
           </p>
           <img
-            src={lpic37}
+            src={lpic40}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1043,7 +1044,7 @@ function practice() {
             <br />
           </p>
           <img
-            src={lpic38}
+            src={lpic41}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1066,7 +1067,7 @@ function practice() {
             <br />
           </p>
           <img
-            src={lpic39}
+            src={lpic42}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1088,7 +1089,7 @@ function practice() {
             <br />
           </p>
           <img
-            src={lpic40}
+            src={lpic43}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1109,7 +1110,7 @@ function practice() {
             <br />• Click commit to continue
           </p>
           <img
-            src={lpic41}
+            src={lpic44}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1129,7 +1130,7 @@ function practice() {
             In the server manager dashboard, click tools and select DHCP
           </p>
           <img
-            src={lpic42}
+            src={lpic45}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1149,7 +1150,7 @@ function practice() {
             create an IP scope for distribution.
           </p>
           <img
-            src={lpic43}
+            src={lpic46}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1171,14 +1172,14 @@ function practice() {
             <br />• Click Next to continue
           </p>
           <img
-            src={lpic44}
+            src={lpic47}
             alt=" "
             width={"710px"}
             height={"553px"}
             style={{ padding: "15px" }}
           />
           <br />
-          <p
+          {/* <p
             style={{
               width: "90%",
               fontSize: "large",
@@ -1191,46 +1192,39 @@ function practice() {
             In the description portion, you can put anything you want or leave
             it blank.
             <br />• Click Next to continue
+          </p> */}
+
+          <br />
+          <p
+            style={{
+              width: "90%",
+              fontSize: "large",
+              alignSelf: "start",
+              marginBottom: "0px",
+            }}
+          >
+            • Specify the IP Address Range by entering the start IP Address and
+            End IP address. The length automatically assigns, based on you IP
+            address class and the subnet mask assigns automatically.
           </p>
           <img
-            src={lpic44}
+            src={lpic48}
             alt=" "
             width={"710px"}
             height={"553px"}
             style={{ padding: "15px" }}
           />
-          <br />
-          <div>
-            <p
-              style={{
-                width: "90%",
-                fontSize: "large",
-                alignSelf: "start",
-                marginBottom: "0px",
-              }}
-            >
-              • Specify the IP Address Range by entering the start IP Address
-              and End IP address. The length automatically assigns, based on you
-              IP address class and the subnet mask assigns automatically.
-            </p>
-            <div className="card">
-              • In this Demo we are going to Use: <br />
-              <br />
-              <div className="flex-center flex-column">
-                <p>&#9; Start IP address: 10.10.10.10</p>
-                <p>&#9; End IP In this address: 10.10.10.200</p>
-              </div>
-              <br />
-              •Click Next to continue
+
+          <div className="card">
+            • In this Demo we are going to Use: <br />
+            <br />
+            <div className="flex-center flex-column">
+              <p>{"\u00A0\u00A0"} Start IP address: 10.10.10.10</p>
+              <p>{"\u00A0\u00A0"} End IP In this address: 10.10.10.200</p>
             </div>
+            <br />• Click Next to continue
           </div>
-          <img
-            src={lpic45}
-            alt=" "
-            width={"710px"}
-            height={"553px"}
-            style={{ padding: "15px" }}
-          />
+
           <br />
           <p
             style={{
@@ -1245,16 +1239,18 @@ function practice() {
             automatically. IPs before and after the exclusion range are
             assigned. IPs excluded are assigned on servers manually. Specify the
             IP range you want to exclude. <br />
-            •In this Demo we are going to leave it blank <br />
-            •Click Next to Continue
+            • In this Demo we are going to leave it blank <br />• Click Next to
+            Continue
           </p>
+
           <img
-            src={lpic46}
+            src={lpic49}
             alt=" "
             width={"710px"}
             height={"553px"}
             style={{ padding: "15px" }}
           />
+
           <br />
           <p
             style={{
@@ -1271,13 +1267,15 @@ function practice() {
             •We are keeping the default settings of 8 Days. <br />
             •Click Next to continue.
           </p>
+
           <img
-            src={lpic47}
+            src={lpic50}
             alt=" "
             width={"710px"}
             height={"553px"}
             style={{ padding: "15px" }}
           />
+
           <br />
           <p
             style={{
@@ -1292,7 +1290,15 @@ function practice() {
             continue
           </p>
           <img
-            src={lpic48}
+            src={lpic51}
+            alt=" "
+            width={"710px"}
+            height={"553px"}
+            style={{ padding: "15px" }}
+          />
+          {"Continue for tom"}
+          <img
+            src={lpic52}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1311,7 +1317,7 @@ function practice() {
             to add the IP address. <br /> • Click on Next button.
           </p>
           <img
-            src={lpic49}
+            src={lpic53}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1332,7 +1338,7 @@ function practice() {
             the IP address. <br />• Click Next to continue.
           </p>
           <img
-            src={lpic50}
+            src={lpic54}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1353,7 +1359,7 @@ function practice() {
             leave it blank. <br /> • Click Next to continue
           </p>
           <img
-            src={lpic51}
+            src={lpic55}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1371,7 +1377,7 @@ function practice() {
             Finish the wizard by clicking on the finish button.
           </p>
           <img
-            src={lpic52}
+            src={lpic56}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1409,7 +1415,7 @@ function practice() {
             </p>
           </div>
           <img
-            src={lpic53}
+            src={lpic57}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1428,7 +1434,7 @@ function practice() {
             <b> Directory Users and Computers.</b>
           </p>
           <img
-            src={lpic54}
+            src={lpic58}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1447,7 +1453,7 @@ function practice() {
             <b> Organizational Unit</b>.
           </p>
           <img
-            src={lpic55}
+            src={lpic59}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1469,7 +1475,7 @@ function practice() {
             <br />• Click OK to finish.
           </p>
           <img
-            src={lpic56}
+            src={lpic60}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1487,7 +1493,7 @@ function practice() {
             Now OU with the name "Students" has been successfully created.
           </p>
           <img
-            src={lpic57}
+            src={lpic61}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1507,7 +1513,7 @@ function practice() {
             <b> "User"</b>.
           </p>
           <img
-            src={lpic58}
+            src={lpic62}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1532,7 +1538,7 @@ function practice() {
             in the username field. <br /> • Click Next to continue
           </p>
           <img
-            src={lpic59}
+            src={lpic63}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1557,7 +1563,7 @@ function practice() {
             Click Next to continue
           </p>
           <img
-            src={lpic60}
+            src={lpic64}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1577,7 +1583,7 @@ function practice() {
             correct, select Finish to exit.
           </p>
           <img
-            src={lpic61}
+            src={lpic65}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1596,7 +1602,7 @@ function practice() {
             Unit (OU).
           </p>
           <img
-            src={lpic62}
+            src={lpic66}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1706,7 +1712,7 @@ function practice() {
           </div>
           <br />
           <img
-            src={lpic63}
+            src={lpic67}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1727,7 +1733,7 @@ function practice() {
             <br /> • In this demo we are going to select Local Disk (D:)
           </p>
           <img
-            src={lpic64}
+            src={lpic68}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1745,7 +1751,7 @@ function practice() {
             On the <b>Home tab</b>, click <b>New folder</b>.
           </p>
           <img
-            src={lpic65}
+            src={lpic69}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1763,7 +1769,7 @@ function practice() {
             Type name of the new folder (e.g. Students), then press Enter
           </p>
           <img
-            src={lpic66}
+            src={lpic70}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1782,7 +1788,7 @@ function practice() {
             Specific people.
           </p>
           <img
-            src={lpic67}
+            src={lpic71}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1801,7 +1807,7 @@ function practice() {
             Everyone, and then click Add.
           </p>
           <img
-            src={lpic68}
+            src={lpic72}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1820,7 +1826,7 @@ function practice() {
             and then click Read/Write.
           </p>
           <img
-            src={lpic69}
+            src={lpic73}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1839,7 +1845,7 @@ function practice() {
             <br />• Close the Local Disk (D:) window
           </p>
           <img
-            src={lpic70}
+            src={lpic74}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1862,7 +1868,7 @@ function practice() {
             Run dialog box. Press the Enter key to run it.
           </p>
           <img
-            src={lpic71}
+            src={lpic75}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1881,7 +1887,7 @@ function practice() {
             Policy Management.
           </p>
           <img
-            src={lpic72}
+            src={lpic76}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1902,7 +1908,7 @@ function practice() {
             <b>Create a GPO in this domain and Link it here</b>...
           </p>
           <img
-            src={lpic73}
+            src={lpic77}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1921,7 +1927,7 @@ function practice() {
             Redirection of Documents and Desktop, and then click OK.
           </p>
           <img
-            src={lpic74}
+            src={lpic78}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1941,7 +1947,7 @@ function practice() {
             <br />• Desktop, and then click Edit.
           </p>
           <img
-            src={lpic75}
+            src={lpic79}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1963,7 +1969,7 @@ function practice() {
             <b>Properties</b> .
           </p>
           <img
-            src={lpic76}
+            src={lpic80}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1986,7 +1992,7 @@ function practice() {
             Root Path text box, type <b>\\DCServer\Students</b>
           </p>
           <img
-            src={lpic77}
+            src={lpic81}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -2007,7 +2013,7 @@ function practice() {
             click Yes. <br />• Click OK to close.
           </p>
           <img
-            src={lpic78}
+            src={lpic82}
             alt=" "
             width={"710px"}
             height={"553px"}
