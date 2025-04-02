@@ -2198,7 +2198,7 @@ function practice() {
           <img
             src={pic83}
             alt=" "
-            width={"80%"}
+            width={"30%"}
             height={"100%"}
             style={{ padding: "15px" }}
           />
@@ -2206,7 +2206,7 @@ function practice() {
           <img
             src={pic84}
             alt=" "
-            width={"80%"}
+            width={"50%"}
             height={"100%"}
             style={{ padding: "15px" }}
           />
