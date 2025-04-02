@@ -7,7 +7,7 @@ import Topic from "../Parts/l3-parts/topic";
 import Practice from "../Parts/l3-parts/practice";
 import PT from "../Parts/l3-parts/performanceTask";
 import SQ from "../Parts/l3-parts/ShortQuiz";
-import References from "../Parts/l1-parts/references";
+import References from "../Parts/l3-parts/references";
 
 import Download from "../Parts/fileDownloadl3";
 import Footer from "../Parts/footer";
