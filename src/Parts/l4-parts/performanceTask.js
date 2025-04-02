@@ -1,7 +1,6 @@
 import React from "react";
 import Apply from "../../Images/graphic_1151221.png";
-import rubric1 from "../../Images/l4/rubrics_l4_p1.png";
-import rubric2 from "../../Images/l4/rubrics_l4_p2.png";
+import rubric from "../../Images/l4/Lesson4_Rubrics.png";
 import question from "../../Images/fa3859ff-1d7a-4751-81ec-65576109a2af-removebg-preview.png";
 import TextArea from "../../Components/TextArea";
 
@@ -70,7 +69,10 @@ function performanceTask() {
         <p style={{ padding: "15px" }}>
           <b>Instructions:</b>
         </p>{" "}
-        <div className="full-width flex-center"style={{ backgroundColor: "#292929" }}>
+        <div
+          className="full-width flex-center"
+          style={{ backgroundColor: "#292929" }}
+        >
           <table>
             <colgroup>
               <col style={{ width: "300px" }} />
@@ -239,22 +241,13 @@ function performanceTask() {
           </table>
         </div>
         <div className="full-width flex-center">
-          <div className="full-width flex-center flex-column">
-            <img
-              src={rubric1}
-              alt="Criteria for Performance Task"
-              width={"510px"}
-              height={"513px"}
-              style={{ padding: "15px" }}
-            />
-            <img
-              src={rubric2}
-              alt="Criteria for Performance Task"
-              width={"510px"}
-              height={"513px"}
-              style={{ padding: "15px" }}
-            />
-          </div>
+          <img
+            src={rubric}
+            alt="Criteria for Performance Task"
+            width={"510px"}
+            height={"513px"}
+            style={{ padding: "15px" }}
+          />
           <div className="sticky-board">
             <div className="card sticky">
               <p

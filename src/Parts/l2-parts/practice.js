@@ -94,9 +94,11 @@ import pic82 from "../../Images/l2/Lesson 2 - Screenshots/79.png";
 import pic83 from "../../Images/l2/Lesson 2 - Screenshots/80.png";
 import pic84 from "../../Images/l2/Lesson 2 - Screenshots/81.png";
 import pic85 from "../../Images/l2/Lesson 2 - Screenshots/82.png";
-import pic86 from "../../Images/l2/86.png";
-import pic87 from "../../Images/l2/87.png";
-import pic88 from "../../Images/l2/88.png";
+import pic86a from "../../Images/l2/Lesson 2 - Screenshots/83a.png";
+import pic86b from "../../Images/l2/Lesson 2 - Screenshots/83a.png";
+import pic87 from "../../Images/l2/Lesson 2 - Screenshots/84.png";
+import pic88 from "../../Images/l2/Lesson 2 - Screenshots/85.png";
+import pic89 from "../../Images/l2/Lesson 2 - Screenshots/86.png";
 
 function practice() {
   return (
@@ -289,13 +291,13 @@ function practice() {
             2. Tap the link beside the computer name to <b>Rename</b>
             <br />
           </p>
-            <img
-              src={pic9}
-              alt=" "
-              width={"710px"}
-              height={"403px"}
-              style={{ padding: "15px" }}
-            />
+          <img
+            src={pic9}
+            alt=" "
+            width={"710px"}
+            height={"403px"}
+            style={{ padding: "15px" }}
+          />
           <p
             style={{
               width: "90%",
@@ -308,20 +310,20 @@ function practice() {
             <br />
           </p>
           <div className="flex-center">
-          <img
-            src={pic10}
-            alt=" "
-            width={"710px"}
-            height={"443px"}
-            style={{ padding: "15px" }}
-          />
-          <img
-            src={pic10dot1}
-            alt=" "
-            width={"710px"}
-            height={"443px"}
-            style={{ padding: "15px" }}
-          />
+            <img
+              src={pic10}
+              alt=" "
+              width={"710px"}
+              height={"443px"}
+              style={{ padding: "15px" }}
+            />
+            <img
+              src={pic10dot1}
+              alt=" "
+              width={"710px"}
+              height={"443px"}
+              style={{ padding: "15px" }}
+            />
           </div>
           <p
             style={{
@@ -2241,13 +2243,22 @@ function practice() {
             for your domain account.
             <br />• Click <b>OK</b> to proceed.
           </p>
-          <img
-            src={pic86}
-            alt=" "
-            width={"80%"}
-            height={"100%"}
-            style={{ padding: "15px" }}
-          />
+          <div className="flex-center">
+            <img
+              src={pic86a}
+              alt=" "
+              width={"80%"}
+              height={"100%"}
+              style={{ padding: "15px" }}
+            />
+            <img
+              src={pic86b}
+              alt=" "
+              width={"80%"}
+              height={"100%"}
+              style={{ padding: "15px" }}
+            />
+          </div>
           <br />
           <p
             style={{
@@ -2282,13 +2293,22 @@ function practice() {
             <br />• Enter your password, and you will now be logged onto your
             domain.
           </p>
-          <img
-            src={pic88}
-            alt=" "
-            width={"80%"}
-            height={"100%"}
-            style={{ padding: "15px" }}
-          />
+          <div className="flex-center">
+            <img
+              src={pic88}
+              alt=" "
+              width={"80%"}
+              height={"100%"}
+              style={{ padding: "15px" }}
+            />
+            <img
+              src={pic89}
+              alt=" "
+              width={"80%"}
+              height={"100%"}
+              style={{ padding: "15px" }}
+            />
+          </div>
           <br />
         </div>
         {/*End div */}
