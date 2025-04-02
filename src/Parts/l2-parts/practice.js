@@ -95,7 +95,7 @@ import pic83 from "../../Images/l2/Lesson 2 - Screenshots/80.png";
 import pic84 from "../../Images/l2/Lesson 2 - Screenshots/81.png";
 import pic85 from "../../Images/l2/Lesson 2 - Screenshots/82.png";
 import pic86a from "../../Images/l2/Lesson 2 - Screenshots/83a.png";
-import pic86b from "../../Images/l2/Lesson 2 - Screenshots/83a.png";
+import pic86b from "../../Images/l2/Lesson 2 - Screenshots/83b.png";
 import pic87 from "../../Images/l2/Lesson 2 - Screenshots/84.png";
 import pic88 from "../../Images/l2/Lesson 2 - Screenshots/85.png";
 import pic89 from "../../Images/l2/Lesson 2 - Screenshots/86.png";
@@ -2297,14 +2297,14 @@ function practice() {
             <img
               src={pic88}
               alt=" "
-              width={"80%"}
+              width={"40%"}
               height={"100%"}
               style={{ padding: "15px" }}
             />
             <img
               src={pic89}
               alt=" "
-              width={"80%"}
+              width={"40%"}
               height={"100%"}
               style={{ padding: "15px" }}
             />
