@@ -7,67 +7,56 @@ function references() {
         <h1>References:</h1>
         <p className="overview-intro card" style={{ fontSize: "large" }}>
           <a
-            href="https://www.linkedin.com/pulse/deploying-windows-server-comprehensive-guide-dhruv-varde-zrfgf"
+            href="https://www.manifest.ly/use-cases/systems-administration/server-setup-checklist"
             target="_blank"
             rel="noreferrer"
           >
             <i>
-              • Varde, D. (2024, January 22). Deploying a Windows Server: A
-              Comprehensive Guide. LinkedIn.
+              • Manifestly. (2014, June 1). Server setup checklist. Retrieved
+              from https://www.manifest.ly/use-
+              cases/systems-administration/server-setup-checklist
             </i>
           </a>
           <br />
           <br />
           <a
-            href=" https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-latest"
+            href="https://learn.microsoft.com/en-us/iis/web-hosting/installing-infrastructure-components/planning-
+the-deployment"
             rel="noreferrer"
             target="_blank"
           >
             <i>
-              • Microsoft. (2024, August 11). Set up and deploy on-premises
-              environments (Application 10.0.32 and later). Microsoft Learn.
-            </i>
-          </a>
-          <br />
-          <br />
-          <a
-            href=" https://www.manifest.ly/use-cases/systems-administration/server-setup-checklist"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <i>• Manifestly. (2014, June 1). Server Setup Checklist.</i>
-          </a>
-          <br />
-          <br />
-          <a
-            href=" https://learn.microsoft.com/en-us/iis/web-hosting/installing-infrastructure-components/planning-the-deployment"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <i>
-              • Microsoft. (2022, June 14). Planning the Deployment. Microsoft
+              • Microsoft. (2022, June 14). Planning the deployment. Microsoft
               Learn. Retrieved from
+              https://learn.microsoft.com/en-us/iis/web-hosting/installing-infrastructure-components/planning-
+              the-deployment
             </i>
           </a>
           <br />
           <br />
           <a
-            href=" https://documentation.opencrvs.org/setup/6.-go-live/3.3.4-set-up-an-smtp-server-for-opencrvs-monitoring-alerts"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <i>• OpenCRVS. (n.d.). Pre-Deployment Checklist. </i>
-          </a>
-          <br />
-          <br />
-          <a
-            href="https://www.tutorchase.com/answers/ib/computer-science/what-are-the-risks-associated-with-inadequate-software-deployment-strategies"
+            href="https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-latest"
             rel="noreferrer"
             target="_blank"
           >
             <i>
-              • TutorChase. (n.d.). What are the risks associated with
-              inadequate software deployment strategies?.  
+              • Microsoft. (2024, August 11). Set up and deploy on-premises
+              environments (Application 10.0.32 and later). Microsoft Learn.
+              Retrieved from https://learn.microsoft.com/en-us/dynamics365/fin-
+              ops-core/dev-itpro/deployment/setup-deploy-on-premises-latest
+            </i>
+          </a>
+          <br />
+          <br />
+          <a
+            href="https://documentation.opencrvs.org/setup/6.-go-live/3.3.4-set-up-an-smtp-server-for-opencrvs-monitoring-alerts"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <i>
+              • OpenCRVS. (n.d.). Pre-deployment checklist. Retrieved from
+              https://documentation.opencrvs.org/setup/6.-go-live/3.3.4-set-up-an-smtp-server-for-opencrvs-
+              monitoring-alerts
             </i>
           </a>
           <br />
@@ -78,8 +67,37 @@ function references() {
             target="_blank"
           >
             <i>
-              • OpenMindT. (n.d.). Software Deployment Guide: Methods, Risks &
-              Best Practices. 
+              • OpenMindT. (n.d.). Software deployment guide: Methods, risks
+              &amp; best practices. Retrieved from
+              https://www.openmindt.com/knowledge/software-deployment-guide-definition-methods-risks/
+            </i>
+          </a>
+          <br />
+          <br />
+          <a
+            href="https://www.tutorchase.com/answers/ib/computer-science/what-are-the-risks-associated-with-inadequate-software-deployment-strategies"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <i>
+              • TutorChase. (n.d.). What are the risks associated with
+              inadequate software deployment strategies? Retrieved from
+              https://www.tutorchase.com/answers/ib/computer-science/what-are-
+              the-risks-associated-with-inadequate-software-deployment-strategies
+            </i>
+          </a>
+          <br />
+          <br />
+          <a
+            href="https://www.linkedin.com/pulse/deploying-windows-server-comprehensive-guide-dhruv-varde-zrfgf"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <i>
+              • Varde, D. (2024, January 22). Deploying a Windows Server: A
+              comprehensive guide. LinkedIn. Retrieved from
+              https://www.linkedin.com/pulse/deploying-windows-server-comprehensive-guide-
+              dhruv-varde-zrfgf
             </i>
           </a>
         </p>

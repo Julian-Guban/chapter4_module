@@ -7,6 +7,18 @@ function references() {
         <h1>References:</h1>
         <p className="overview-intro card">
           <a
+            href="https://datascientest.com/en/all-about-network-operating-system"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <i>
+              • DataScientest. (n.d.). Guide to NOS features. Retrieved March 5,
+              2025, from A complete guide to network operating systems
+            </i>
+          </a>
+          <br />
+          <br />
+          <a
             href="https://fcit.usf.edu/network/chap6/chap6.htm"
             target="_blank"
             rel="noreferrer"
@@ -29,19 +41,7 @@ function references() {
               work with any networking protocol? | Lenovo US
             </i>
           </a>
-          <br />
-          <br />
-          <a
-            href="https://learn.microsoft.com/en-us/windows-server/networking/technologies/nps/nps-top"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <i>
-              • TechTarget. (n.d.). Network operating system (NOS) definition
-              and functionalities. Retrieved March 5, 2025, from What is a
-              Network Operating System? | Definition from TechTarget
-            </i>
-          </a>
+
           <br />
           <br />
           <a
@@ -58,18 +58,6 @@ function references() {
           <br />
           <br />
           <a
-            href="https://datascientest.com/en/all-about-network-operating-system"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <i>
-              • DataScientest. (n.d.). Guide to NOS features. Retrieved March 5,
-              2025, from A complete guide to network operating systems
-            </i>
-          </a>
-          <br />
-          <br />
-          <a
             href="https://www.prepbytes.com/blog/operating-system/network-operating-system/"
             rel="noreferrer"
             target="_blank"
@@ -77,6 +65,20 @@ function references() {
             <i>
               • PrepBytes Blog. (n.d.). Types and functions of NOS. Retrieved
               March 5, 2025, from Network Operating System: Types and Functions
+            </i>
+          </a>
+          <br />
+          <br />
+          <a
+            href="https://www.techtarget.com/searchnetworking/definition/network-operating-
+system"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <i>
+              • TechTarget. (n.d.). Network operating system (NOS) definition
+              and functionalities. Retrieved March 5, 2025, from What is a
+              Network Operating System? | Definition from TechTarget
             </i>
           </a>
         </p>
