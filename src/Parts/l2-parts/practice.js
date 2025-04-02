@@ -8,92 +8,92 @@ import BENF from "../../Images/values_11340020.png";
 import GZ from "../../Images/applause_9104907.png";
 import pic4 from "../../Images/l2/4.png";
 import pic5 from "../../Images/l2/5.png";
-import pic6 from "../../Images/l2/Lesson 2 - Screenshots/1.png";
-import pic7 from "../../Images/l2/Lesson 2 - Screenshots/2.png";
+import lpic1 from "../../Images/l2/Lesson 2 - Screenshots/1.png";
+import lpic2 from "../../Images/l2/Lesson 2 - Screenshots/2.png";
+import misspic29 from "../../Images/l2/29.png";
+import lpic3 from "../../Images/l2/Lesson 2 - Screenshots/3.png";
+import lpic4 from "../../Images/l2/Lesson 2 - Screenshots/4.png";
 
-import pic8 from "../../Images/l2/Lesson 2 - Screenshots/3.png";
-import pic8dot1 from "../../Images/l2/Lesson 2 - Screenshots/4.png";
+import lpic5 from "../../Images/l2/Lesson 2 - Screenshots/5.png";
 
-import pic9 from "../../Images/l2/Lesson 2 - Screenshots/5.png";
+import lpic6 from "../../Images/l2/Lesson 2 - Screenshots/6.png";
+import lpic7 from "../../Images/l2/Lesson 2 - Screenshots/7.png";
 
-import pic10 from "../../Images/l2/Lesson 2 - Screenshots/6.png";
-import pic10dot1 from "../../Images/l2/Lesson 2 - Screenshots/7.png";
-
-import pic11 from "../../Images/l2/Lesson 2 - Screenshots/8.png";
-import pic12 from "../../Images/l2/Lesson 2 - Screenshots/9.png";
-import pic13 from "../../Images/l2/Lesson 2 - Screenshots/10.png";
-import pic14 from "../../Images/l2/Lesson 2 - Screenshots/11.png";
-import pic15 from "../../Images/l2/Lesson 2 - Screenshots/12.png";
-import pic16 from "../../Images/l2/Lesson 2 - Screenshots/13.png";
-import pic17 from "../../Images/l2/Lesson 2 - Screenshots/14.png";
-import pic18 from "../../Images/l2/Lesson 2 - Screenshots/15.png";
-import pic19 from "../../Images/l2/Lesson 2 - Screenshots/16.png";
-import pic20 from "../../Images/l2/Lesson 2 - Screenshots/17.png";
-import pic21 from "../../Images/l2/Lesson 2 - Screenshots/18.png";
-import pic22 from "../../Images/l2/Lesson 2 - Screenshots/19.png";
-import pic23 from "../../Images/l2/Lesson 2 - Screenshots/20.png";
-import pic24 from "../../Images/l2/Lesson 2 - Screenshots/21.png";
-import pic25 from "../../Images/l2/Lesson 2 - Screenshots/22.png";
-import pic26 from "../../Images/l2/Lesson 2 - Screenshots/23.png";
-import pic27 from "../../Images/l2/Lesson 2 - Screenshots/24.png";
-import pic28 from "../../Images/l2/Lesson 2 - Screenshots/25.png";
-import pic29 from "../../Images/l2/Lesson 2 - Screenshots/26.png";
-import pic30 from "../../Images/l2/Lesson 2 - Screenshots/27.png";
-import pic31 from "../../Images/l2/Lesson 2 - Screenshots/28.png";
-import pic32 from "../../Images/l2/Lesson 2 - Screenshots/29.png";
-import pic33 from "../../Images/l2/Lesson 2 - Screenshots/30.png";
-import pic34 from "../../Images/l2/Lesson 2 - Screenshots/31.png";
-import pic35 from "../../Images/l2/Lesson 2 - Screenshots/32.png";
-import pic36 from "../../Images/l2/Lesson 2 - Screenshots/33.png";
-import pic37 from "../../Images/l2/Lesson 2 - Screenshots/34.png";
-import pic38 from "../../Images/l2/Lesson 2 - Screenshots/35.png";
-import pic39 from "../../Images/l2/Lesson 2 - Screenshots/36.png";
-import pic40 from "../../Images/l2/Lesson 2 - Screenshots/37.png";
-import pic41 from "../../Images/l2/Lesson 2 - Screenshots/38.png";
-import pic42 from "../../Images/l2/Lesson 2 - Screenshots/39.png";
-import pic43 from "../../Images/l2/Lesson 2 - Screenshots/40.png";
-import pic44 from "../../Images/l2/Lesson 2 - Screenshots/41.png";
-import pic45 from "../../Images/l2/Lesson 2 - Screenshots/42.png";
-import pic46 from "../../Images/l2/Lesson 2 - Screenshots/43.png";
-import pic47 from "../../Images/l2/Lesson 2 - Screenshots/44.png";
-import pic48 from "../../Images/l2/Lesson 2 - Screenshots/45.png";
-import pic49 from "../../Images/l2/Lesson 2 - Screenshots/46.png";
-import pic50 from "../../Images/l2/Lesson 2 - Screenshots/47.png";
-import pic51 from "../../Images/l2/Lesson 2 - Screenshots/48.png";
-import pic52 from "../../Images/l2/Lesson 2 - Screenshots/49.png";
-import pic53 from "../../Images/l2/Lesson 2 - Screenshots/50.png";
-import pic54 from "../../Images/l2/Lesson 2 - Screenshots/51.png";
-import pic55 from "../../Images/l2/Lesson 2 - Screenshots/52.png";
-import pic56 from "../../Images/l2/Lesson 2 - Screenshots/53.png";
-import pic57 from "../../Images/l2/Lesson 2 - Screenshots/54.png";
-import pic58 from "../../Images/l2/Lesson 2 - Screenshots/55.png";
-import pic59 from "../../Images/l2/Lesson 2 - Screenshots/56.png";
-import pic60 from "../../Images/l2/Lesson 2 - Screenshots/57.png";
-import pic61 from "../../Images/l2/Lesson 2 - Screenshots/58.png";
-import pic62 from "../../Images/l2/Lesson 2 - Screenshots/59.png";
-import pic63 from "../../Images/l2/Lesson 2 - Screenshots/60.png";
-import pic64 from "../../Images/l2/Lesson 2 - Screenshots/61.png";
-import pic65 from "../../Images/l2/Lesson 2 - Screenshots/62.png";
-import pic66 from "../../Images/l2/Lesson 2 - Screenshots/63.png";
-import pic67 from "../../Images/l2/Lesson 2 - Screenshots/64.png";
-import pic68 from "../../Images/l2/Lesson 2 - Screenshots/65.png";
-import pic69 from "../../Images/l2/Lesson 2 - Screenshots/66.png";
-import pic70 from "../../Images/l2/Lesson 2 - Screenshots/67.png";
-import pic71 from "../../Images/l2/Lesson 2 - Screenshots/68.png";
-import pic72 from "../../Images/l2/Lesson 2 - Screenshots/69.png";
-import pic73 from "../../Images/l2/Lesson 2 - Screenshots/70.png";
-import pic74 from "../../Images/l2/Lesson 2 - Screenshots/71.png";
-import pic75 from "../../Images/l2/Lesson 2 - Screenshots/72.png";
-import pic76 from "../../Images/l2/Lesson 2 - Screenshots/73.png";
-import pic77 from "../../Images/l2/Lesson 2 - Screenshots/74.png";
-import pic78 from "../../Images/l2/Lesson 2 - Screenshots/75.png";
-import pic79 from "../../Images/l2/Lesson 2 - Screenshots/76.png";
-import pic80 from "../../Images/l2/Lesson 2 - Screenshots/77.png";
-import pic81 from "../../Images/l2/Lesson 2 - Screenshots/78.png";
-import pic82 from "../../Images/l2/Lesson 2 - Screenshots/79.png";
-import pic83 from "../../Images/l2/Lesson 2 - Screenshots/80.png";
-import pic84 from "../../Images/l2/Lesson 2 - Screenshots/81.png";
-import pic85 from "../../Images/l2/Lesson 2 - Screenshots/82.png";
+import lpic8 from "../../Images/l2/Lesson 2 - Screenshots/8.png";
+import lpic9 from "../../Images/l2/Lesson 2 - Screenshots/9.png";
+import lpic10 from "../../Images/l2/Lesson 2 - Screenshots/10.png";
+import lpic11 from "../../Images/l2/Lesson 2 - Screenshots/11.png";
+import lpic12 from "../../Images/l2/Lesson 2 - Screenshots/12.png";
+import lpic13 from "../../Images/l2/Lesson 2 - Screenshots/13.png";
+import lpic14 from "../../Images/l2/Lesson 2 - Screenshots/14.png";
+import lpic15 from "../../Images/l2/Lesson 2 - Screenshots/15.png";
+import lpic16 from "../../Images/l2/Lesson 2 - Screenshots/16.png";
+import lpic17 from "../../Images/l2/Lesson 2 - Screenshots/17.png";
+import lpic18 from "../../Images/l2/Lesson 2 - Screenshots/18.png";
+import lpic19 from "../../Images/l2/Lesson 2 - Screenshots/19.png";
+import lpic20 from "../../Images/l2/Lesson 2 - Screenshots/20.png";
+import lpic21 from "../../Images/l2/Lesson 2 - Screenshots/21.png";
+import lpic22 from "../../Images/l2/Lesson 2 - Screenshots/22.png";
+import lpic23 from "../../Images/l2/Lesson 2 - Screenshots/23.png";
+import lpic24 from "../../Images/l2/Lesson 2 - Screenshots/24.png";
+import lpic25 from "../../Images/l2/Lesson 2 - Screenshots/25.png";
+import lpic26 from "../../Images/l2/Lesson 2 - Screenshots/26.png";
+import lpic27 from "../../Images/l2/Lesson 2 - Screenshots/27.png";
+import lpic28 from "../../Images/l2/Lesson 2 - Screenshots/28.png";
+import lpic29 from "../../Images/l2/Lesson 2 - Screenshots/29.png";
+import lpic30 from "../../Images/l2/Lesson 2 - Screenshots/30.png";
+import lpic31 from "../../Images/l2/Lesson 2 - Screenshots/31.png";
+import lpic32 from "../../Images/l2/Lesson 2 - Screenshots/32.png";
+import lpic33 from "../../Images/l2/Lesson 2 - Screenshots/33.png";
+import lpic34 from "../../Images/l2/Lesson 2 - Screenshots/34.png";
+import lpic35 from "../../Images/l2/Lesson 2 - Screenshots/35.png";
+import lpic36 from "../../Images/l2/Lesson 2 - Screenshots/36.png";
+import lpic37 from "../../Images/l2/Lesson 2 - Screenshots/37.png";
+import lpic38 from "../../Images/l2/Lesson 2 - Screenshots/38.png";
+import lpic39 from "../../Images/l2/Lesson 2 - Screenshots/39.png";
+import lpic40 from "../../Images/l2/Lesson 2 - Screenshots/40.png";
+import lpic41 from "../../Images/l2/Lesson 2 - Screenshots/41.png";
+import lpic42 from "../../Images/l2/Lesson 2 - Screenshots/42.png";
+import lpic43 from "../../Images/l2/Lesson 2 - Screenshots/43.png";
+import lpic44 from "../../Images/l2/Lesson 2 - Screenshots/44.png";
+import lpic45 from "../../Images/l2/Lesson 2 - Screenshots/45.png";
+import lpic46 from "../../Images/l2/Lesson 2 - Screenshots/46.png";
+import lpic47 from "../../Images/l2/Lesson 2 - Screenshots/47.png";
+import lpic48 from "../../Images/l2/Lesson 2 - Screenshots/48.png";
+import lpic49 from "../../Images/l2/Lesson 2 - Screenshots/49.png";
+import lpic50 from "../../Images/l2/Lesson 2 - Screenshots/50.png";
+import lpic51 from "../../Images/l2/Lesson 2 - Screenshots/51.png";
+import lpic52 from "../../Images/l2/Lesson 2 - Screenshots/52.png";
+import lpic53 from "../../Images/l2/Lesson 2 - Screenshots/53.png";
+import lpic54 from "../../Images/l2/Lesson 2 - Screenshots/54.png";
+import lpic55 from "../../Images/l2/Lesson 2 - Screenshots/55.png";
+import lpic56 from "../../Images/l2/Lesson 2 - Screenshots/56.png";
+import lpic57 from "../../Images/l2/Lesson 2 - Screenshots/57.png";
+import lpic58 from "../../Images/l2/Lesson 2 - Screenshots/58.png";
+import lpic59 from "../../Images/l2/Lesson 2 - Screenshots/59.png";
+import lpic60 from "../../Images/l2/Lesson 2 - Screenshots/60.png";
+import lpic61 from "../../Images/l2/Lesson 2 - Screenshots/61.png";
+import lpic62 from "../../Images/l2/Lesson 2 - Screenshots/62.png";
+import lpic63 from "../../Images/l2/Lesson 2 - Screenshots/63.png";
+import lpic64 from "../../Images/l2/Lesson 2 - Screenshots/64.png";
+import lpic65 from "../../Images/l2/Lesson 2 - Screenshots/65.png";
+import lpic66 from "../../Images/l2/Lesson 2 - Screenshots/66.png";
+import lpic67 from "../../Images/l2/Lesson 2 - Screenshots/67.png";
+import lpic68 from "../../Images/l2/Lesson 2 - Screenshots/68.png";
+import lpic69 from "../../Images/l2/Lesson 2 - Screenshots/69.png";
+import lpic70 from "../../Images/l2/Lesson 2 - Screenshots/70.png";
+import lpic71 from "../../Images/l2/Lesson 2 - Screenshots/71.png";
+import lpic72 from "../../Images/l2/Lesson 2 - Screenshots/72.png";
+import lpic73 from "../../Images/l2/Lesson 2 - Screenshots/73.png";
+import lpic74 from "../../Images/l2/Lesson 2 - Screenshots/74.png";
+import lpic75 from "../../Images/l2/Lesson 2 - Screenshots/75.png";
+import lpic76 from "../../Images/l2/Lesson 2 - Screenshots/76.png";
+import lpic77 from "../../Images/l2/Lesson 2 - Screenshots/77.png";
+import lpic78 from "../../Images/l2/Lesson 2 - Screenshots/78.png";
+import lpic79 from "../../Images/l2/Lesson 2 - Screenshots/79.png";
+import lpic80 from "../../Images/l2/Lesson 2 - Screenshots/80.png";
+import lpic81 from "../../Images/l2/Lesson 2 - Screenshots/81.png";
+import lpic82 from "../../Images/l2/Lesson 2 - Screenshots/82.png";
 import pic86 from "../../Images/l2/86.png";
 import pic87 from "../../Images/l2/87.png";
 import pic88 from "../../Images/l2/88.png";
@@ -147,13 +147,6 @@ function practice() {
 
       <div className="full-width flex-center flex-column">
         <div className="topic-content flex-center flex-column">
-          <img
-            src={pic4}
-            alt="before start"
-            width={"810px"}
-            height={"313px"}
-            style={{ padding: "15px" }}
-          />
           <p
             style={{
               fontSize: "large",
@@ -165,13 +158,7 @@ function practice() {
             static IP address, and naming according to the standard. Make sure
             to check your cables if they are working properly. <br />
           </p>
-          <img
-            src={pic5}
-            alt="alternative before start"
-            width={"710px"}
-            height={"443px"}
-            style={{ padding: "15px" }}
-          />
+
           <p
             style={{
               fontSize: "large",
@@ -182,6 +169,13 @@ function practice() {
             • Or you can open the server manager by clicking the windows button
             in your keyboard and then look for the server manager
           </p>
+          <img
+            src={pic4}
+            alt="before start"
+            width={"810px"}
+            height={"313px"}
+            style={{ padding: "15px" }}
+          />
           <p
             style={{
               width: "90%",
@@ -203,7 +197,14 @@ function practice() {
             <br />
           </p>
           <img
-            src={pic6}
+            src={pic5}
+            alt="alternative before start"
+            width={"710px"}
+            height={"443px"}
+            style={{ padding: "15px" }}
+          />
+          <img
+            src={lpic1}
             alt=" "
             width={"710px"}
             height={"443px"}
@@ -224,7 +225,7 @@ function practice() {
             <br />
           </p>
           <img
-            src={pic7}
+            src={lpic2}
             alt=" "
             width={"710px"}
             height={"443px"}
@@ -260,14 +261,14 @@ function practice() {
           </div>
           <div className="flex-center">
             <img
-              src={pic8}
+              src={lpic3}
               alt=" "
               width={"710px"}
               height={"443px"}
               style={{ padding: "15px" }}
             />
             <img
-              src={pic8dot1}
+              src={lpic4}
               alt=" "
               width={"710px"}
               height={"443px"}
@@ -289,13 +290,13 @@ function practice() {
             2. Tap the link beside the computer name to <b>Rename</b>
             <br />
           </p>
-            <img
-              src={pic9}
-              alt=" "
-              width={"710px"}
-              height={"403px"}
-              style={{ padding: "15px" }}
-            />
+          <img
+            src={lpic5}
+            alt=" "
+            width={"710px"}
+            height={"403px"}
+            style={{ padding: "15px" }}
+          />
           <p
             style={{
               width: "90%",
@@ -308,20 +309,20 @@ function practice() {
             <br />
           </p>
           <div className="flex-center">
-          <img
-            src={pic10}
-            alt=" "
-            width={"710px"}
-            height={"443px"}
-            style={{ padding: "15px" }}
-          />
-          <img
-            src={pic10dot1}
-            alt=" "
-            width={"710px"}
-            height={"443px"}
-            style={{ padding: "15px" }}
-          />
+            <img
+              src={lpic6}
+              alt=" "
+              width={"710px"}
+              height={"443px"}
+              style={{ padding: "15px" }}
+            />
+            <img
+              src={lpic7}
+              alt=" "
+              width={"710px"}
+              height={"443px"}
+              style={{ padding: "15px" }}
+            />
           </div>
           <p
             style={{
@@ -339,7 +340,7 @@ function practice() {
           </p>
 
           <img
-            src={pic11}
+            src={lpic8}
             alt=" "
             width={"710px"}
             height={"503px"}
@@ -359,7 +360,7 @@ function practice() {
             2. Click Next to continue
           </p>
           <img
-            src={pic12}
+            src={lpic9}
             alt=" "
             width={"710px"}
             height={"503px"}
@@ -382,7 +383,7 @@ function practice() {
             2. Click Next to continue
           </p>
           <img
-            src={pic13}
+            src={lpic10}
             alt=" "
             width={"710px"}
             height={"503px"}
@@ -400,7 +401,7 @@ function practice() {
             On the Features, click Next to continue..
           </p>
           <img
-            src={pic14}
+            src={lpic11}
             alt=" "
             width={"710px"}
             height={"503px"}
@@ -418,7 +419,7 @@ function practice() {
             On the AD DS, click Next to continue...
           </p>
           <img
-            src={pic15}
+            src={lpic12}
             alt=" "
             width={"710px"}
             height={"503px"}
@@ -436,7 +437,7 @@ function practice() {
             On the DNS Server, click Next to continue...
           </p>
           <img
-            src={pic16}
+            src={lpic13}
             alt=" "
             width={"710px"}
             height={"503px"}
@@ -454,7 +455,7 @@ function practice() {
             On the Confirmation, click Install to continue...
           </p>
           <img
-            src={pic17}
+            src={lpic14}
             alt=" "
             width={"710px"}
             height={"503px"}
@@ -474,7 +475,7 @@ function practice() {
             complete the installation.
           </p>
           <img
-            src={pic18}
+            src={lpic15}
             alt=" "
             width={"710px"}
             height={"503px"}
@@ -493,7 +494,7 @@ function practice() {
             server to a domain controller”
           </p>
           <img
-            src={pic19}
+            src={lpic16}
             alt=" "
             width={"710px"}
             height={"503px"}
@@ -514,7 +515,7 @@ function practice() {
             <br />• Click Next to continue
           </p>
           <img
-            src={pic20}
+            src={lpic17}
             alt=" "
             width={"710px"}
             height={"503px"}
@@ -533,7 +534,7 @@ function practice() {
             <br />
           </p>
           <img
-            src={pic21}
+            src={lpic18}
             alt=" "
             width={"710px"}
             height={"503px"}
@@ -553,12 +554,20 @@ function practice() {
             <br />
           </p>
           <img
-            src={pic22}
+            src={lpic19}
             alt=" "
             width={"710px"}
             height={"503px"}
             style={{ padding: "15px" }}
           />
+          <img
+            src={lpic20}
+            alt=" "
+            width={"710px"}
+            height={"503px"}
+            style={{ padding: "15px" }}
+          />
+
           <p
             style={{
               width: "90%",
@@ -573,7 +582,7 @@ function practice() {
             <br />
           </p>
           <img
-            src={pic23}
+            src={lpic21}
             alt=" "
             width={"710px"}
             height={"503px"}
@@ -596,10 +605,10 @@ function practice() {
             <br />
           </p>
           <img
-            src={pic24}
+            src={lpic22}
             alt=" "
             width={"710px"}
-            height={"503px"}
+            height={"303px"}
             style={{ padding: "15px" }}
           />
           <p
@@ -616,15 +625,17 @@ function practice() {
             <br />
           </p>
           <img
-            src={pic25}
+            src={lpic23}
             alt=" "
             width={"710px"}
-            height={"303px"}
+            height={"503px"}
             style={{ padding: "15px" }}
           />
+          {"END OF AD DS CONFIGURATION"}
           <br />
           <hr className="col-line" />
           <br />
+          {"Begin of DNS CONFIGURATION"}
           <p
             style={{
               width: "90%",
@@ -635,10 +646,35 @@ function practice() {
           >
             <br />
             On the server manager dashboard click tools and select DNS.
+          </p>
+
+          <p
+            style={{
+              width: "90%",
+              fontSize: "large",
+              alignSelf: "start",
+              marginBottom: "0px",
+            }}
+          >
+            On the DNS Manager,
+            <br />
+            • Expand your server "DCServer.CSS.Local"
+            <br />
+            • DCServer being the computer name and CSS.Local as the root domain
+            name.
+            <br />
+            • Right-click on Reverse lookup zone and select New Zone
             <br />
           </p>
           <img
-            src={pic26}
+            src={lpic24}
+            alt=" "
+            width={"710px"}
+            height={"453px"}
+            style={{ padding: "15px" }}
+          />
+          <img
+            src={lpic25}
             alt=" "
             width={"710px"}
             height={"503px"}
@@ -652,40 +688,20 @@ function practice() {
               marginBottom: "0px",
             }}
           >
-            <br />
-            On the DNS Manager,
-            <br />
-            • Expand your server "DCServer.CSS.Local"
-            <br />
-            • DCServer being the computer name and CSS.Local as the root domain
-            name.
-            <br />
-            • Right-click on Reverse lookup zone and select New Zone
-            <br />
-          </p>
-          <img
-            src={pic27}
-            alt=" "
-            width={"710px"}
-            height={"453px"}
-            style={{ padding: "15px" }}
-          />
-          <p
-            style={{
-              width: "90%",
-              fontSize: "large",
-              alignSelf: "start",
-              marginBottom: "0px",
-            }}
-          >
             After New Zone Wizard opens up, click next to continue.
-            <br />
             <br />
             On the Zone Type, Select Primary Zone and click Next to continue.
             <br />
           </p>
           <img
-            src={pic28}
+            src={lpic26}
+            alt=" "
+            width={"710px"}
+            height={"503px"}
+            style={{ padding: "15px" }}
+          />
+          <img
+            src={lpic27}
             alt=" "
             width={"710px"}
             height={"503px"}
@@ -709,8 +725,9 @@ function practice() {
             • and, Click Next to continue.
             <br />
           </p>
+          {/* MISSING IMAGE  */}
           <img
-            src={pic29}
+            src={misspic29}
             alt=" "
             width={"710px"}
             height={"503px"}
@@ -730,7 +747,7 @@ function practice() {
             <br />
           </p>
           <img
-            src={pic30}
+            src={lpic28}
             alt=" "
             width={"710px"}
             height={"503px"}
@@ -752,7 +769,7 @@ function practice() {
             <br />
           </p>
           <img
-            src={pic31}
+            src={lpic29}
             alt=" "
             width={"710px"}
             height={"503px"}
@@ -778,10 +795,10 @@ function practice() {
             <br />
           </p>
           <img
-            src={pic32}
+            src={lpic30}
             alt=" "
             width={"710px"}
-            height={"503px"}
+            height={"403px"}
             style={{ padding: "15px" }}
           />
           <p
@@ -817,7 +834,7 @@ function practice() {
             <br />
           </p>
           <img
-            src={pic33}
+            src={lpic31}
             alt=" "
             width={"710px"}
             height={"403px"}
@@ -849,12 +866,27 @@ function practice() {
             <br />
           </p>
           <img
-            src={pic34}
+            src={lpic32}
             alt=" "
             width={"710px"}
             height={"303px"}
             style={{ padding: "15px" }}
           />
+          <img
+            src={lpic33}
+            alt=" "
+            width={"710px"}
+            height={"403px"}
+            style={{ padding: "15px" }}
+          />
+          <img
+            src={lpic34}
+            alt=" "
+            width={"710px"}
+            height={"403px"}
+            style={{ padding: "15px" }}
+          />
+
           <br />
           <br />
           <div className="card">
@@ -871,10 +903,10 @@ function practice() {
             </p>
           </div>
           <img
-            src={pic35}
+            src={lpic35}
             alt=" "
             width={"710px"}
-            height={"403px"}
+            height={"553px"}
             style={{ padding: "15px" }}
           />
           <p
@@ -896,12 +928,17 @@ function practice() {
             <br />
           </p>
           <img
-            src={pic36}
+            src={lpic36}
             alt=" "
             width={"710px"}
             height={"553px"}
             style={{ padding: "15px" }}
           />
+          {"END OF DNS CONFIGURATION"}
+          <br />
+          <hr className="col-line" />
+          <br />
+          {"Begin OF DHCP CONFIGURATION"}
           <p
             style={{
               width: "90%",
@@ -916,7 +953,7 @@ function practice() {
             <br />
           </p>
           <img
-            src={pic37}
+            src={lpic37}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -942,7 +979,7 @@ function practice() {
             <br />
           </p>
           <img
-            src={pic38}
+            src={lpic38}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -963,8 +1000,9 @@ function practice() {
             • Click Next to continue
             <br />
           </p>
+          {/* !!*/}
           <img
-            src={pic39}
+            src={lpic39}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -986,7 +1024,7 @@ function practice() {
             <br />
           </p>
           <img
-            src={pic40}
+            src={lpic40}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1006,7 +1044,7 @@ function practice() {
             <br />
           </p>
           <img
-            src={pic41}
+            src={lpic41}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1029,7 +1067,7 @@ function practice() {
             <br />
           </p>
           <img
-            src={pic42}
+            src={lpic42}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1051,7 +1089,7 @@ function practice() {
             <br />
           </p>
           <img
-            src={pic43}
+            src={lpic43}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1072,7 +1110,7 @@ function practice() {
             <br />• Click commit to continue
           </p>
           <img
-            src={pic44}
+            src={lpic44}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1092,7 +1130,7 @@ function practice() {
             In the server manager dashboard, click tools and select DHCP
           </p>
           <img
-            src={pic45}
+            src={lpic45}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1112,7 +1150,7 @@ function practice() {
             create an IP scope for distribution.
           </p>
           <img
-            src={pic46}
+            src={lpic46}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1134,14 +1172,14 @@ function practice() {
             <br />• Click Next to continue
           </p>
           <img
-            src={pic47}
+            src={lpic47}
             alt=" "
             width={"710px"}
             height={"553px"}
             style={{ padding: "15px" }}
           />
           <br />
-          <p
+          {/* <p
             style={{
               width: "90%",
               fontSize: "large",
@@ -1154,46 +1192,39 @@ function practice() {
             In the description portion, you can put anything you want or leave
             it blank.
             <br />• Click Next to continue
+          </p> */}
+
+          <br />
+          <p
+            style={{
+              width: "90%",
+              fontSize: "large",
+              alignSelf: "start",
+              marginBottom: "0px",
+            }}
+          >
+            • Specify the IP Address Range by entering the start IP Address and
+            End IP address. The length automatically assigns, based on you IP
+            address class and the subnet mask assigns automatically.
           </p>
           <img
-            src={pic47}
+            src={lpic48}
             alt=" "
             width={"710px"}
             height={"553px"}
             style={{ padding: "15px" }}
           />
-          <br />
-          <div>
-            <p
-              style={{
-                width: "90%",
-                fontSize: "large",
-                alignSelf: "start",
-                marginBottom: "0px",
-              }}
-            >
-              • Specify the IP Address Range by entering the start IP Address
-              and End IP address. The length automatically assigns, based on you
-              IP address class and the subnet mask assigns automatically.
-            </p>
-            <div className="card">
-              • In this Demo we are going to Use: <br />
-              <br />
-              <div className="flex-center flex-column">
-                <p>&#9; Start IP address: 10.10.10.10</p>
-                <p>&#9; End IP In this address: 10.10.10.200</p>
-              </div>
-              <br />
-              •Click Next to continue
+
+          <div className="card">
+            • In this Demo we are going to Use: <br />
+            <br />
+            <div className="flex-center flex-column">
+              <p>{"\u00A0\u00A0"} Start IP address: 10.10.10.10</p>
+              <p>{"\u00A0\u00A0"} End IP In this address: 10.10.10.200</p>
             </div>
+            <br />• Click Next to continue
           </div>
-          <img
-            src={pic48}
-            alt=" "
-            width={"710px"}
-            height={"553px"}
-            style={{ padding: "15px" }}
-          />
+
           <br />
           <p
             style={{
@@ -1208,16 +1239,18 @@ function practice() {
             automatically. IPs before and after the exclusion range are
             assigned. IPs excluded are assigned on servers manually. Specify the
             IP range you want to exclude. <br />
-            •In this Demo we are going to leave it blank <br />
-            •Click Next to Continue
+            • In this Demo we are going to leave it blank <br />• Click Next to
+            Continue
           </p>
+
           <img
-            src={pic49}
+            src={lpic49}
             alt=" "
             width={"710px"}
             height={"553px"}
             style={{ padding: "15px" }}
           />
+
           <br />
           <p
             style={{
@@ -1234,13 +1267,15 @@ function practice() {
             •We are keeping the default settings of 8 Days. <br />
             •Click Next to continue.
           </p>
+
           <img
-            src={pic50}
+            src={lpic50}
             alt=" "
             width={"710px"}
             height={"553px"}
             style={{ padding: "15px" }}
           />
+
           <br />
           <p
             style={{
@@ -1255,7 +1290,15 @@ function practice() {
             continue
           </p>
           <img
-            src={pic51}
+            src={lpic51}
+            alt=" "
+            width={"710px"}
+            height={"553px"}
+            style={{ padding: "15px" }}
+          />
+          {"Continue for tom"}
+          <img
+            src={lpic52}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1274,7 +1317,7 @@ function practice() {
             to add the IP address. <br /> • Click on Next button.
           </p>
           <img
-            src={pic52}
+            src={lpic53}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1295,7 +1338,7 @@ function practice() {
             the IP address. <br />• Click Next to continue.
           </p>
           <img
-            src={pic53}
+            src={lpic54}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1316,7 +1359,7 @@ function practice() {
             leave it blank. <br /> • Click Next to continue
           </p>
           <img
-            src={pic54}
+            src={lpic55}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1334,7 +1377,7 @@ function practice() {
             Finish the wizard by clicking on the finish button.
           </p>
           <img
-            src={pic55}
+            src={lpic56}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1372,7 +1415,7 @@ function practice() {
             </p>
           </div>
           <img
-            src={pic56}
+            src={lpic57}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1391,7 +1434,7 @@ function practice() {
             <b> Directory Users and Computers.</b>
           </p>
           <img
-            src={pic57}
+            src={lpic58}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1410,7 +1453,7 @@ function practice() {
             <b> Organizational Unit</b>.
           </p>
           <img
-            src={pic58}
+            src={lpic59}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1432,7 +1475,7 @@ function practice() {
             <br />• Click OK to finish.
           </p>
           <img
-            src={pic59}
+            src={lpic60}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1450,7 +1493,7 @@ function practice() {
             Now OU with the name "Students" has been successfully created.
           </p>
           <img
-            src={pic60}
+            src={lpic61}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1470,7 +1513,7 @@ function practice() {
             <b> "User"</b>.
           </p>
           <img
-            src={pic61}
+            src={lpic62}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1495,7 +1538,7 @@ function practice() {
             in the username field. <br /> • Click Next to continue
           </p>
           <img
-            src={pic62}
+            src={lpic63}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1520,7 +1563,7 @@ function practice() {
             Click Next to continue
           </p>
           <img
-            src={pic63}
+            src={lpic64}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1540,7 +1583,7 @@ function practice() {
             correct, select Finish to exit.
           </p>
           <img
-            src={pic64}
+            src={lpic65}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1559,7 +1602,7 @@ function practice() {
             Unit (OU).
           </p>
           <img
-            src={pic65}
+            src={lpic66}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1669,7 +1712,7 @@ function practice() {
           </div>
           <br />
           <img
-            src={pic66}
+            src={lpic67}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1690,7 +1733,7 @@ function practice() {
             <br /> • In this demo we are going to select Local Disk (D:)
           </p>
           <img
-            src={pic67}
+            src={lpic68}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1708,7 +1751,7 @@ function practice() {
             On the <b>Home tab</b>, click <b>New folder</b>.
           </p>
           <img
-            src={pic68}
+            src={lpic69}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1726,7 +1769,7 @@ function practice() {
             Type name of the new folder (e.g. Students), then press Enter
           </p>
           <img
-            src={pic69}
+            src={lpic70}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1745,7 +1788,7 @@ function practice() {
             Specific people.
           </p>
           <img
-            src={pic70}
+            src={lpic71}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1764,7 +1807,7 @@ function practice() {
             Everyone, and then click Add.
           </p>
           <img
-            src={pic71}
+            src={lpic72}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1783,7 +1826,7 @@ function practice() {
             and then click Read/Write.
           </p>
           <img
-            src={pic72}
+            src={lpic73}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1802,7 +1845,7 @@ function practice() {
             <br />• Close the Local Disk (D:) window
           </p>
           <img
-            src={pic73}
+            src={lpic74}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1825,7 +1868,7 @@ function practice() {
             Run dialog box. Press the Enter key to run it.
           </p>
           <img
-            src={pic74}
+            src={lpic75}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1844,7 +1887,7 @@ function practice() {
             Policy Management.
           </p>
           <img
-            src={pic75}
+            src={lpic76}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1865,7 +1908,7 @@ function practice() {
             <b>Create a GPO in this domain and Link it here</b>...
           </p>
           <img
-            src={pic76}
+            src={lpic77}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1884,7 +1927,7 @@ function practice() {
             Redirection of Documents and Desktop, and then click OK.
           </p>
           <img
-            src={pic77}
+            src={lpic78}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1904,7 +1947,7 @@ function practice() {
             <br />• Desktop, and then click Edit.
           </p>
           <img
-            src={pic78}
+            src={lpic79}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1926,7 +1969,7 @@ function practice() {
             <b>Properties</b> .
           </p>
           <img
-            src={pic79}
+            src={lpic80}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1949,7 +1992,7 @@ function practice() {
             Root Path text box, type <b>\\DCServer\Students</b>
           </p>
           <img
-            src={pic80}
+            src={lpic81}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -1970,7 +2013,7 @@ function practice() {
             click Yes. <br />• Click OK to close.
           </p>
           <img
-            src={pic81}
+            src={lpic82}
             alt=" "
             width={"710px"}
             height={"553px"}
@@ -2172,7 +2215,7 @@ function practice() {
             <b>Set up diagram:</b>
           </p>
           <img
-            src={pic82}
+            src={lpic79}
             alt=" "
             width={"80%"}
             height={"100%"}
@@ -2194,7 +2237,7 @@ function practice() {
             <br />• Then click <b>Join a Domain</b>
           </p>
           <img
-            src={pic83}
+            src={lpic80}
             alt=" "
             width={"80%"}
             height={"100%"}
@@ -2202,7 +2245,7 @@ function practice() {
           />
           <br />
           <img
-            src={pic84}
+            src={lpic81}
             alt=" "
             width={"80%"}
             height={"100%"}
@@ -2222,7 +2265,7 @@ function practice() {
             domain you want to join <br />• Click OK to continue.
           </p>
           <img
-            src={pic85}
+            src={lpic82}
             alt=" "
             width={"80%"}
             height={"100%"}
